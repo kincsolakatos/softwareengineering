@@ -3106,11 +3106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
+      "projectUniqueName": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
       "projectName": "Rendeles_Forms_IASR1J",
-      "projectPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
+      "projectPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
       "packagesPath": "C:\\Users\\iasr1j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\softwareengineering\\Rendeles_Forms_IASR1J\\obj\\",
+      "outputPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Rendeles_Forms_IASR1J\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\iasr1j\\AppData\\Roaming\\NuGet\\NuGet.Config",
