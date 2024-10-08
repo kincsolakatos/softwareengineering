@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+
 
 namespace Rendeles_Forms_IASR1J
 {
@@ -242,6 +244,54 @@ namespace Rendeles_Forms_IASR1J
                 treeViewKategoriak.SelectedNode = e.Node;
                 contextMenuStripKategoria.Show(treeViewKategoriak, e.Location);
             }
+        }
+
+        private void mentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (SaveFileDialog sfd = new SaveFileDialog())
+            {
+                sfd.Filter = "XML files (*.xml)|*.xml|All files (*.*)|*.*";
+                sfd.Title = "Kategóriák mentése XML fájlba";
+                if (sfd.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        XDocument xdoc = new XDocument();
+                        XDeclaration xdecl = new XDeclaration("1.0", "utf-8", "yes");
+                        xdoc.Declaration = xdecl;
+                        XElement root = new XElement("Kategoriak");
+                        xdoc.Add(root);
+                        var kategoriak = _context.TermekKategoria.ToList();
+                        foreach (var kategoria in kategoriak.Where(c => c.SzuloKategoriaId == null))
+                        {
+                            XElement kategoiaElem = KategoriaElemLetrehozasa(kategoria, kategoriak);
+                            root.Add(kategoiaElem);
+                        }
+                        xdoc.Save(sfd.FileName);
+                        MessageBox.Show("A kategóriák sikeresen mentésre kerültek!");
+                    }
+                    catch(Exception ex)
+                    {
+                        MessageBox.Show($"Hiba történt a mentés során: {ex.Message}", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+        private XElement KategoriaElemLetrehozasa(TermekKategoria kategoria, List<TermekKategoria> osszesKategoria)
+        {
+            XElement kategoriaElem = new XElement
+            (   
+                "Kategoria",
+                new XAttribute("KategoriaId", kategoria.KategoriaId),
+                new XAttribute("Nev", kategoria.Nev)
+            );
+            var alkategoriak = osszesKategoria.Where(c => c.SzuloKategoriaId == kategoria.KategoriaId).ToList();
+            foreach (var alkategoria in alkategoriak)
+            {
+                XElement alkategoriaElem = KategoriaElemLetrehozasa(alkategoria, osszesKategoria);
+                kategoriaElem.Add(alkategoriaElem);
+            }
+            return kategoriaElem;
         }
     }
 }

@@ -44,6 +44,7 @@
             textBoxNev = new TextBox();
             textBoxLeiras = new TextBox();
             labelLeiras = new Label();
+            mentesToolStripMenuItem = new ToolStripMenuItem();
             contextMenuStripKategoria.SuspendLayout();
             SuspendLayout();
             // 
@@ -59,42 +60,42 @@
             // 
             // contextMenuStripKategoria
             // 
-            contextMenuStripKategoria.Items.AddRange(new ToolStripItem[] { atnevezesToolStripMenuItem, ujFokategoriaToolStripMenuItem, ujAlkategoriaToolStripMenuItem, torlesToolStripMenuItem, frissitesToolStripMenuItem });
+            contextMenuStripKategoria.Items.AddRange(new ToolStripItem[] { atnevezesToolStripMenuItem, ujFokategoriaToolStripMenuItem, ujAlkategoriaToolStripMenuItem, torlesToolStripMenuItem, frissitesToolStripMenuItem, mentesToolStripMenuItem });
             contextMenuStripKategoria.Name = "contextMenuStripKategoria";
-            contextMenuStripKategoria.Size = new Size(151, 114);
+            contextMenuStripKategoria.Size = new Size(181, 158);
             // 
             // atnevezesToolStripMenuItem
             // 
             atnevezesToolStripMenuItem.Name = "atnevezesToolStripMenuItem";
-            atnevezesToolStripMenuItem.Size = new Size(150, 22);
+            atnevezesToolStripMenuItem.Size = new Size(180, 22);
             atnevezesToolStripMenuItem.Text = "Atnevezes";
             atnevezesToolStripMenuItem.Click += atnevezesToolStripMenuItem_Click;
             // 
             // ujFokategoriaToolStripMenuItem
             // 
             ujFokategoriaToolStripMenuItem.Name = "ujFokategoriaToolStripMenuItem";
-            ujFokategoriaToolStripMenuItem.Size = new Size(150, 22);
+            ujFokategoriaToolStripMenuItem.Size = new Size(180, 22);
             ujFokategoriaToolStripMenuItem.Text = "Uj Fokategoria";
             ujFokategoriaToolStripMenuItem.Click += ujFokategoriaToolStripMenuItem_Click;
             // 
             // ujAlkategoriaToolStripMenuItem
             // 
             ujAlkategoriaToolStripMenuItem.Name = "ujAlkategoriaToolStripMenuItem";
-            ujAlkategoriaToolStripMenuItem.Size = new Size(150, 22);
+            ujAlkategoriaToolStripMenuItem.Size = new Size(180, 22);
             ujAlkategoriaToolStripMenuItem.Text = "Uj Alkategoria";
             ujAlkategoriaToolStripMenuItem.Click += ujAlkategoriaToolStripMenuItem_Click;
             // 
             // torlesToolStripMenuItem
             // 
             torlesToolStripMenuItem.Name = "torlesToolStripMenuItem";
-            torlesToolStripMenuItem.Size = new Size(150, 22);
+            torlesToolStripMenuItem.Size = new Size(180, 22);
             torlesToolStripMenuItem.Text = "Torles";
             torlesToolStripMenuItem.Click += torlesToolStripMenuItem_Click;
             // 
             // frissitesToolStripMenuItem
             // 
             frissitesToolStripMenuItem.Name = "frissitesToolStripMenuItem";
-            frissitesToolStripMenuItem.Size = new Size(150, 22);
+            frissitesToolStripMenuItem.Size = new Size(180, 22);
             frissitesToolStripMenuItem.Text = "Frissites";
             frissitesToolStripMenuItem.Click += frissitesToolStripMenuItem_Click;
             // 
@@ -170,6 +171,13 @@
             labelLeiras.TabIndex = 8;
             labelLeiras.Text = "Leiras:";
             // 
+            // mentesToolStripMenuItem
+            // 
+            mentesToolStripMenuItem.Name = "mentesToolStripMenuItem";
+            mentesToolStripMenuItem.Size = new Size(180, 22);
+            mentesToolStripMenuItem.Text = "Mentes";
+            mentesToolStripMenuItem.Click += mentesToolStripMenuItem_Click;
+            // 
             // FormTermekKategoria
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -208,5 +216,6 @@
         private ToolStripMenuItem ujAlkategoriaToolStripMenuItem;
         private ToolStripMenuItem torlesToolStripMenuItem;
         private ToolStripMenuItem frissitesToolStripMenuItem;
+        private ToolStripMenuItem mentesToolStripMenuItem;
     }
 }
