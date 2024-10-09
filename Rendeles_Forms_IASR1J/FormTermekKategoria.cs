@@ -270,7 +270,7 @@ namespace Rendeles_Forms_IASR1J
                         xdoc.Save(sfd.FileName);
                         MessageBox.Show("A kategóriák sikeresen mentésre kerültek!");
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         MessageBox.Show($"Hiba történt a mentés során: {ex.Message}", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
@@ -280,7 +280,7 @@ namespace Rendeles_Forms_IASR1J
         private XElement KategoriaElemLetrehozasa(TermekKategoria kategoria, List<TermekKategoria> osszesKategoria)
         {
             XElement kategoriaElem = new XElement
-            (   
+            (
                 "Kategoria",
                 new XAttribute("KategoriaId", kategoria.KategoriaId),
                 new XAttribute("Nev", kategoria.Nev)
@@ -292,6 +292,11 @@ namespace Rendeles_Forms_IASR1J
                 kategoriaElem.Add(alkategoriaElem);
             }
             return kategoriaElem;
+        }
+
+        private void FormTermekKategoria_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

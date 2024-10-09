@@ -136,3 +136,5 @@ C:\Users\iasr1j\Desktop\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7
 C:\Users\iasr1j\Desktop\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\Rendeles_Forms_IASR1J.pdb
 C:\Users\iasr1j\Desktop\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\Rendeles_Forms_IASR1J.genruntimeconfig.cache
 C:\Users\iasr1j\Desktop\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\ref\Rendeles_Forms_IASR1J.dll
+C:\Users\iasr1j\Desktop\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\Rendeles_Forms_IASR1J.FormUgyfelKezelo.resources
+C:\Users\iasr1j\Desktop\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\Rendeles_Forms_IASR1J.FormUgyfelSzerkesztes.resources

@@ -7,5 +7,11 @@
     <Compile Update="FormTermekKategoria.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormUgyfelKezelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUgyfelSzerkesztes.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

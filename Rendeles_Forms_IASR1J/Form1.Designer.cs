@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             buttonTermekKategoriakKezelese = new Button();
+            buttonUgyfelLista = new Button();
             SuspendLayout();
             // 
             // buttonTermekKategoriakKezelese
@@ -41,11 +42,22 @@
             buttonTermekKategoriakKezelese.UseVisualStyleBackColor = true;
             buttonTermekKategoriakKezelese.Click += buttonTermekKategoriakKezelese_Click;
             // 
+            // buttonUgyfelLista
+            // 
+            buttonUgyfelLista.Location = new Point(178, 12);
+            buttonUgyfelLista.Name = "buttonUgyfelLista";
+            buttonUgyfelLista.Size = new Size(76, 23);
+            buttonUgyfelLista.TabIndex = 1;
+            buttonUgyfelLista.Text = "Ugyfel Lista";
+            buttonUgyfelLista.UseVisualStyleBackColor = true;
+            buttonUgyfelLista.Click += buttonUgyfelLista_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonUgyfelLista);
             Controls.Add(buttonTermekKategoriakKezelese);
             Name = "Form1";
             Text = "Form1";
@@ -56,5 +68,6 @@
         #endregion
 
         private Button buttonTermekKategoriakKezelese;
+        private Button buttonUgyfelLista;
     }
 }

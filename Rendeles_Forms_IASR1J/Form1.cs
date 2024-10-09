@@ -17,5 +17,11 @@ namespace Rendeles_Forms_IASR1J
             FormTermekKategoria formTermekKategoria = new FormTermekKategoria();
             formTermekKategoria.ShowDialog();
         }
+
+        private void buttonUgyfelLista_Click(object sender, EventArgs e)
+        {
+            FormUgyfelKezelo formUgyfelKezelo = new FormUgyfelKezelo();
+            formUgyfelKezelo.ShowDialog();
+        }
     }
 }
