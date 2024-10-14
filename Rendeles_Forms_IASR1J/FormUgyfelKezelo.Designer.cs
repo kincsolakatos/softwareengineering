@@ -128,7 +128,7 @@
             buttonUgyfelModositasa.Name = "buttonUgyfelModositasa";
             buttonUgyfelModositasa.Size = new Size(113, 23);
             buttonUgyfelModositasa.TabIndex = 3;
-            buttonUgyfelModositasa.Text = "Ugyfel modositasa";
+            buttonUgyfelModositasa.Text = "Ugyfel Modositasa";
             buttonUgyfelModositasa.UseVisualStyleBackColor = true;
             buttonUgyfelModositasa.Click += buttonUgyfelModositasa_Click;
             // 
@@ -140,6 +140,7 @@
             buttonUgyfelTorlese.TabIndex = 4;
             buttonUgyfelTorlese.Text = "Ugyfel Torlese";
             buttonUgyfelTorlese.UseVisualStyleBackColor = true;
+            buttonUgyfelTorlese.Click += buttonUgyfelTorlese_Click;
             // 
             // FormUgyfelKezelo
             // 

@@ -75,6 +75,32 @@ namespace Rendeles_Forms_IASR1J
                 {
                     Mentes();
                 }
+                else
+                {
+                    _context.Ugyfel.Load();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Kerjuk, valasszon ki egy ugyfelet a modositashoz.");
+            }
+        }
+
+        private void buttonUgyfelTorlese_Click(object sender, EventArgs e)
+        {
+            Ugyfel kivalasztottUgyfel = ugyfelBindingSource.Current as Ugyfel;
+            if (kivalasztottUgyfel != null)
+            {
+                var megerosites = MessageBox.Show("Biztos vagy benne, hogy torolni szeretned ezt az ugyfelet?", "Torles megerositese", MessageBoxButtons.YesNo);
+                if (megerosites == DialogResult.Yes)
+                {
+                    ugyfelBindingSource.RemoveCurrent();
+                    Mentes();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Kerjuk, valasszon ki egy ugyfelet a torleshez.");
             }
         }
     }

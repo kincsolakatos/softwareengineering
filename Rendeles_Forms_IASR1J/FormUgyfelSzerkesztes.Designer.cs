@@ -33,10 +33,11 @@
             ugyfelBindingSource = new BindingSource(components);
             textBoxEmail = new TextBox();
             textBoxTelefonszam = new TextBox();
-            radioButtonMeglevoCimBeallitasa = new RadioButton();
-            comboBox1 = new ComboBox();
+            radioButtonLetezoCimBeallitasa = new RadioButton();
+            comboBoxLetezoCimBeallitasa = new ComboBox();
             radioButtonUjCimBeallitasa = new RadioButton();
             textBoxOrszag = new TextBox();
+            cimBindingSource = new BindingSource(components);
             textBoxIranyitoszam = new TextBox();
             textBoxVaros = new TextBox();
             textBoxUtca = new TextBox();
@@ -51,7 +52,6 @@
             labelVaros = new Label();
             labelUtca = new Label();
             labelHazszam = new Label();
-            cimBindingSource = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)ugyfelBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)cimBindingSource).BeginInit();
             SuspendLayout();
@@ -84,24 +84,24 @@
             textBoxTelefonszam.Size = new Size(695, 23);
             textBoxTelefonszam.TabIndex = 2;
             // 
-            // radioButtonMeglevoCimBeallitasa
+            // radioButtonLetezoCimBeallitasa
             // 
-            radioButtonMeglevoCimBeallitasa.AutoSize = true;
-            radioButtonMeglevoCimBeallitasa.Location = new Point(12, 99);
-            radioButtonMeglevoCimBeallitasa.Name = "radioButtonMeglevoCimBeallitasa";
-            radioButtonMeglevoCimBeallitasa.Size = new Size(134, 19);
-            radioButtonMeglevoCimBeallitasa.TabIndex = 3;
-            radioButtonMeglevoCimBeallitasa.TabStop = true;
-            radioButtonMeglevoCimBeallitasa.Text = "Letezo cim beallitasa";
-            radioButtonMeglevoCimBeallitasa.UseVisualStyleBackColor = true;
+            radioButtonLetezoCimBeallitasa.AutoSize = true;
+            radioButtonLetezoCimBeallitasa.Location = new Point(12, 99);
+            radioButtonLetezoCimBeallitasa.Name = "radioButtonLetezoCimBeallitasa";
+            radioButtonLetezoCimBeallitasa.Size = new Size(134, 19);
+            radioButtonLetezoCimBeallitasa.TabIndex = 3;
+            radioButtonLetezoCimBeallitasa.TabStop = true;
+            radioButtonLetezoCimBeallitasa.Text = "Letezo cim beallitasa";
+            radioButtonLetezoCimBeallitasa.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // comboBoxLetezoCimBeallitasa
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(12, 124);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(776, 23);
-            comboBox1.TabIndex = 4;
+            comboBoxLetezoCimBeallitasa.FormattingEnabled = true;
+            comboBoxLetezoCimBeallitasa.Location = new Point(12, 124);
+            comboBoxLetezoCimBeallitasa.Name = "comboBoxLetezoCimBeallitasa";
+            comboBoxLetezoCimBeallitasa.Size = new Size(776, 23);
+            comboBoxLetezoCimBeallitasa.TabIndex = 4;
             // 
             // radioButtonUjCimBeallitasa
             // 
@@ -113,6 +113,7 @@
             radioButtonUjCimBeallitasa.TabStop = true;
             radioButtonUjCimBeallitasa.Text = "Uj cim beallitasa";
             radioButtonUjCimBeallitasa.UseVisualStyleBackColor = true;
+            radioButtonUjCimBeallitasa.CheckedChanged += radioButtonUjCimBeallitasa_CheckedChanged;
             // 
             // textBoxOrszag
             // 
@@ -121,6 +122,10 @@
             textBoxOrszag.Name = "textBoxOrszag";
             textBoxOrszag.Size = new Size(695, 23);
             textBoxOrszag.TabIndex = 6;
+            // 
+            // cimBindingSource
+            // 
+            cimBindingSource.DataSource = typeof(Models.Cim);
             // 
             // textBoxIranyitoszam
             // 
@@ -246,10 +251,6 @@
             labelHazszam.TabIndex = 20;
             labelHazszam.Text = "Hazszam:";
             // 
-            // cimBindingSource
-            // 
-            cimBindingSource.DataSource = typeof(Models.Cim);
-            // 
             // FormUgyfelSzerkesztes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -271,8 +272,8 @@
             Controls.Add(textBoxIranyitoszam);
             Controls.Add(textBoxOrszag);
             Controls.Add(radioButtonUjCimBeallitasa);
-            Controls.Add(comboBox1);
-            Controls.Add(radioButtonMeglevoCimBeallitasa);
+            Controls.Add(comboBoxLetezoCimBeallitasa);
+            Controls.Add(radioButtonLetezoCimBeallitasa);
             Controls.Add(textBoxTelefonszam);
             Controls.Add(textBoxEmail);
             Controls.Add(textBoxNev);
@@ -290,8 +291,8 @@
         private TextBox textBoxNev;
         private TextBox textBoxEmail;
         private TextBox textBoxTelefonszam;
-        private RadioButton radioButtonMeglevoCimBeallitasa;
-        private ComboBox comboBox1;
+        private RadioButton radioButtonLetezoCimBeallitasa;
+        private ComboBox comboBoxLetezoCimBeallitasa;
         private RadioButton radioButtonUjCimBeallitasa;
         private TextBox textBoxOrszag;
         private TextBox textBoxIranyitoszam;
