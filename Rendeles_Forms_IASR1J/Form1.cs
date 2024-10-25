@@ -23,5 +23,11 @@ namespace Rendeles_Forms_IASR1J
             FormUgyfelKezelo formUgyfelKezelo = new FormUgyfelKezelo();
             formUgyfelKezelo.ShowDialog();
         }
+
+        private void buttonRendelesek_Click(object sender, EventArgs e)
+        {
+            FormRendeles formRendeles = new FormRendeles();
+            formRendeles.ShowDialog();
+        }
     }
 }

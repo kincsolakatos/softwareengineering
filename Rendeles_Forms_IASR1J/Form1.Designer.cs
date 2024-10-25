@@ -30,6 +30,7 @@
         {
             buttonTermekKategoriakKezelese = new Button();
             buttonUgyfelLista = new Button();
+            buttonRendelesek = new Button();
             SuspendLayout();
             // 
             // buttonTermekKategoriakKezelese
@@ -52,11 +53,22 @@
             buttonUgyfelLista.UseVisualStyleBackColor = true;
             buttonUgyfelLista.Click += buttonUgyfelLista_Click;
             // 
+            // buttonRendelesek
+            // 
+            buttonRendelesek.Location = new Point(260, 12);
+            buttonRendelesek.Name = "buttonRendelesek";
+            buttonRendelesek.Size = new Size(75, 23);
+            buttonRendelesek.TabIndex = 2;
+            buttonRendelesek.Text = "Rendelesek";
+            buttonRendelesek.UseVisualStyleBackColor = true;
+            buttonRendelesek.Click += buttonRendelesek_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonRendelesek);
             Controls.Add(buttonUgyfelLista);
             Controls.Add(buttonTermekKategoriakKezelese);
             Name = "Form1";
@@ -69,5 +81,6 @@
 
         private Button buttonTermekKategoriakKezelese;
         private Button buttonUgyfelLista;
+        private Button buttonRendelesek;
     }
 }
