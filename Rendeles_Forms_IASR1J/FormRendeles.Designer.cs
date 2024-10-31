@@ -175,7 +175,7 @@
             labelRendeletTetelek.AutoSize = true;
             labelRendeletTetelek.Location = new Point(264, 53);
             labelRendeletTetelek.Name = "labelRendeletTetelek";
-            labelRendeletTetelek.Size = new Size(92, 15);
+            labelRendeletTetelek.Size = new Size(93, 15);
             labelRendeletTetelek.TabIndex = 9;
             labelRendeletTetelek.Text = "Rendelet Tetelek";
             // 
@@ -238,7 +238,7 @@
             labelTermekek.AutoSize = true;
             labelTermekek.Location = new Point(668, 53);
             labelTermekek.Name = "labelTermekek";
-            labelTermekek.Size = new Size(57, 15);
+            labelTermekek.Size = new Size(58, 15);
             labelTermekek.TabIndex = 16;
             labelTermekek.Text = "Termekek";
             // 
@@ -275,6 +275,7 @@
             buttonExcelExport.TabIndex = 20;
             buttonExcelExport.Text = "Excel Export";
             buttonExcelExport.UseVisualStyleBackColor = true;
+            buttonExcelExport.Click += buttonExcelExport_Click;
             // 
             // buttonTetelTorles
             // 
@@ -301,9 +302,9 @@
             labelARendelesTeljesErteke.AutoSize = true;
             labelARendelesTeljesErteke.Location = new Point(138, 419);
             labelARendelesTeljesErteke.Name = "labelARendelesTeljesErteke";
-            labelARendelesTeljesErteke.Size = new Size(38, 15);
+            labelARendelesTeljesErteke.Size = new Size(13, 15);
             labelARendelesTeljesErteke.TabIndex = 23;
-            labelARendelesTeljesErteke.Text = "label1";
+            labelARendelesTeljesErteke.Text = "0";
             // 
             // FormRendeles
             // 

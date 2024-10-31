@@ -26,6 +26,7 @@ namespace Rendeles_Forms_IASR1J
         private void FormRendeles_Load(object sender, EventArgs e)
         {
             LoadUgyfelek();
+            LoadTermekek();
         }
 
         private void textBoxUgyfelekSzurese_TextChanged(object sender, EventArgs e)
@@ -80,6 +81,7 @@ namespace Rendeles_Forms_IASR1J
         private void listBoxUgyfelek_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadRendelesek();
+            LoadCimek();
         }
         private void LoadRendelesTetelek()
         {
@@ -190,13 +192,8 @@ namespace Rendeles_Forms_IASR1J
                 return;
             }
             var selectedTetel = dataGridViewRendeltTetelek.SelectedRows[0].DataBoundItem as RendelesTetelDTO;
-            var tetelek = 
-            (
-                from tetel in _context.RendelesTetel
-                where tetel.TetelId == selectedTetel!.TetelId
-                select tetel
-            ).FirstOrDefault();
-            if (tetelek != null) 
+            var tetelek = _context.RendelesTetel.FirstOrDefault(tetel => tetel.TetelId == selectedTetel!.TetelId);
+            if (tetelek != null)
             {
                 _context.RendelesTetel.Remove(tetelek);
                 Mentes();
@@ -214,10 +211,26 @@ namespace Rendeles_Forms_IASR1J
             var vegosszeg = _context.RendelesTetel
                 .Where(rendelesTetel => rendelesTetel.RendelesId == kivalasztottRendeles.RendelesId)
                 .Sum(rendelesTetel => rendelesTetel.Mennyiseg * rendelesTetel.BruttoAr);
-            kivalasztottRendeles.Vegosszeg = decimal.Round(vegosszeg * (1 - kivalasztottRendeles.Kedvezmeny), 2);
+            kivalasztottRendeles.Vegosszeg = decimal.Round(vegosszeg * (1 - kivalasztottRendeles.Kedvezmeny / 100), 2);
+            if (kivalasztottRendeles.Vegosszeg < 0)
+            {
+                kivalasztottRendeles .Vegosszeg = 0;
+            }
             labelARendelesTeljesErteke.Text = $"A rendeles teljes erteke: {kivalasztottRendeles.Vegosszeg} Ft";
             Mentes();
             rendelesBindingSource.ResetBindings(false);
+        }
+        private void LoadTermekek()
+        {
+            var termekek = from termek in _context.Termek
+                           select termek;
+            termekBindingSource.DataSource = termekek.ToList();
+        }
+
+        private void buttonExcelExport_Click(object sender, EventArgs e)
+        {
+            ExcelExport excelExport = new ExcelExport();
+            excelExport.CreateExcel();
         }
     }
 }

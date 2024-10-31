@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X3271Tk5/6QXJTqfAp0pGQ6uphoQkMgvmFOAfKhnEwls3Z+yyaK7SCgc37TzxjC/VLLr8XZZ5At9ax7CjBPlFw==",
+  "dgSpecHash": "7ivQmUHcTnKKgESiFLG5rr63Acbgmdf++zr8vF3ZjiHXWPoU49ATzUpHNiTFU7Vh0h7nMFf3MDNyDt7PHuV7Zg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
+  "projectFilePath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kincs\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kincs\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
