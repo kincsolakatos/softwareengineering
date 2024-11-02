@@ -10,61 +10,47 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-
-
 namespace Rendeles_Forms_IASR1J
 {
     public partial class FormTermekKategoria : Form
     {
         private RendelesDbContext _context;
+        private TermekKategoria _newCategory;
+        private bool _isNewCategory;
         public FormTermekKategoria()
         {
             InitializeComponent();
             _context = new RendelesDbContext();
-            LoadKategoriak();
+            LoadCategories();
         }
-        private void LoadKategoriak()
+        private void LoadCategories()
         {
-            var kategoriak =
-            (
-                from k in _context.TermekKategoria
-                select k
-            ).ToList();
+            var categories = _context.TermekKategoria.ToList();
             treeViewKategoriak.Nodes.Clear();
-            var fokategoriak =
-                from k in kategoriak
-                where k.SzuloKategoriaId == null
-                select k;
-            foreach (var kategoria in fokategoriak)
+            var maincategories = categories.Where(c => c.SzuloKategoriaId == null);
+            foreach (var category in maincategories)
             {
-                var node = CreateTreeNode(kategoria, kategoriak);
-                treeViewKategoriak.Nodes.Add(node);
+                treeViewKategoriak.Nodes.Add(CreateTreeNode(category, categories));
             }
         }
-        private TreeNode CreateTreeNode(TermekKategoria kategoria, List<TermekKategoria> osszesKategoria)
+        private TreeNode CreateTreeNode(TermekKategoria category, List<TermekKategoria> allCategories)
         {
-            var node = new TreeNode(kategoria.Nev) { Tag = kategoria };
-            var alkategoriak =
-                from k in osszesKategoria
-                where k.SzuloKategoriaId == kategoria.KategoriaId
-                select k;
-            foreach (var gyerekKategoria in alkategoriak)
+            var node = new TreeNode(category.Nev) { Tag = category };
+            var subcategories = allCategories.Where(c => c.SzuloKategoriaId == category.KategoriaId);
+            foreach (var subcategory in subcategories)
             {
-                node.Nodes.Add(CreateTreeNode(gyerekKategoria, osszesKategoria));
+                node.Nodes.Add(CreateTreeNode(subcategory, allCategories));
             }
             return node;
         }
-
         private void treeViewKategoriak_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            if (e.Node?.Tag is TermekKategoria selectedKategoria)
+            if (e.Node?.Tag is TermekKategoria selectedCategory)
             {
-                textBoxNev.Text = selectedKategoria.Nev;
-                textBoxLeiras.Text = selectedKategoria.Leiras;
+                textBoxNev.Text = selectedCategory.Nev;
+                textBoxLeiras.Text = selectedCategory.Leiras;
             }
         }
-        TermekKategoria newKategoria;
-        bool isNewItem;
         private void buttonMentes_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(textBoxNev.Text))
@@ -74,71 +60,64 @@ namespace Rendeles_Forms_IASR1J
             }
             try
             {
-                if (isNewItem)
+                if (_isNewCategory)
                 {
-                    newKategoria.Nev = textBoxNev.Text;
-                    newKategoria.Leiras = textBoxLeiras.Text;
-                    _context.TermekKategoria.Add(newKategoria);
+                    _newCategory.Nev = textBoxNev.Text;
+                    _newCategory.Leiras = textBoxLeiras.Text;
+                    _context.TermekKategoria.Add(_newCategory);
                 }
-                else if (treeViewKategoriak.SelectedNode?.Tag is TermekKategoria selectedKategoria)
+                else if (treeViewKategoriak.SelectedNode?.Tag is TermekKategoria selectedCategory)
                 {
-                    selectedKategoria.Nev = textBoxNev.Text;
-                    selectedKategoria.Leiras = textBoxLeiras.Text;
+                    selectedCategory.Nev = textBoxNev.Text;
+                    selectedCategory.Leiras = textBoxLeiras.Text;
                 }
                 _context.SaveChanges();
                 MessageBox.Show("A valtoztatasok sikeresen mentve", "Siker", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                LoadKategoriak();
-                isNewItem = false;
+                LoadCategories();
+                _isNewCategory = false;
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Hiba tortent a mentes soran: {ex.Message}", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void buttonUjTestverKategoria_Click(object sender, EventArgs e)
         {
-            if (treeViewKategoriak.SelectedNode?.Tag is TermekKategoria selectedKategoria)
+            if (treeViewKategoriak.SelectedNode?.Tag is TermekKategoria selectedCategory)
             {
-                newKategoria = new TermekKategoria
-                {
-                    SzuloKategoriaId = selectedKategoria.SzuloKategoriaId
-                };
-                textBoxNev.Clear();
-                textBoxLeiras.Clear();
-                isNewItem = true;
+                _newCategory = new TermekKategoria { SzuloKategoriaId = selectedCategory.SzuloKategoriaId };
+                ClearCategoryInputs();
+                _isNewCategory = true;
             }
         }
-
         private void buttonUjGyermekKategoria_Click(object sender, EventArgs e)
         {
-            if (treeViewKategoriak.SelectedNode?.Tag is TermekKategoria selectedKategoria)
+            if (treeViewKategoriak.SelectedNode?.Tag is TermekKategoria selectedCategory)
             {
-                newKategoria = new TermekKategoria
-                {
-                    SzuloKategoriaId = selectedKategoria.KategoriaId
-                };
-                textBoxNev.Clear();
-                textBoxLeiras.Clear();
-                isNewItem = true;
+                _newCategory = new TermekKategoria { SzuloKategoriaId = selectedCategory.KategoriaId };
+                ClearCategoryInputs();
+                _isNewCategory = true;
             }
         }
-
+        private void ClearCategoryInputs()
+        {
+            textBoxNev.Clear();
+            textBoxLeiras.Clear();
+        }
         private void buttonTorles_Click(object sender, EventArgs e)
         {
-            if (treeViewKategoriak.SelectedNode?.Tag is TermekKategoria selectedKategoria)
+            if (treeViewKategoriak.SelectedNode?.Tag is TermekKategoria selectedCategory)
             {
-                var result = MessageBox.Show($"Biztosan torolni szeretne a(z) '{selectedKategoria.Nev}' kategoriat es annak osszes alkategoriajat?", "Torles megerositese", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                var result = MessageBox.Show($"Biztosan torolni szeretne a(z) '{selectedCategory.Nev}' kategoriat es annak osszes alkategoriajat?", "Torles megerositese", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (result == DialogResult.Yes)
                 {
                     try
                     {
-                        DeleteKategoriaAndChildren(selectedKategoria);
+                        DeleteCategoryWithChildren(selectedCategory);
                         _context.SaveChanges();
                         MessageBox.Show("A kategoria es alkategoriai sikeresen torolve!", "Siker", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LoadKategoriak();
-                        textBoxNev.Clear();
-                        textBoxLeiras.Clear();
+                        LoadCategories();
+                        ClearCategoryInputs();
                     }
                     catch (Exception ex)
                     {
@@ -151,90 +130,66 @@ namespace Rendeles_Forms_IASR1J
                 MessageBox.Show("Kerjuk, valasszon ki egy kategoriat a torleshez!", "Figyelmeztetes", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-        private void DeleteKategoriaAndChildren(TermekKategoria kategoria)
+        private void DeleteCategoryWithChildren(TermekKategoria category)
         {
-            var childrenToDelete =
-            (
-                from k in _context.TermekKategoria
-                where k.SzuloKategoriaId == kategoria.KategoriaId
-                select k
-            ).ToList();
-            foreach (var child in childrenToDelete)
+            var children = _context.TermekKategoria.Where(c => c.SzuloKategoriaId == category.KategoriaId).ToList();
+            foreach (var child in children)
             {
-                DeleteKategoriaAndChildren(child);
+                DeleteCategoryWithChildren(child);
             }
-            _context.TermekKategoria.Remove(kategoria);
+            _context.TermekKategoria.Remove(category);
         }
-
         private void atnevezesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (treeViewKategoriak.SelectedNode != null)
-            {
-                treeViewKategoriak.SelectedNode.BeginEdit();
-            }
+            if (treeViewKategoriak.SelectedNode != null) treeViewKategoriak.SelectedNode.BeginEdit();
         }
         private void treeViewKategoriak_AfterLabelEdit(object sender, NodeLabelEditEventArgs e)
         {
-            if (e.Label != null && e.Label != "")
+            if (!string.IsNullOrEmpty(e.Label))
             {
-                TermekKategoria atnevezettKategoria = (TermekKategoria)e.Node.Tag;
+                var atnevezettKategoria = (TermekKategoria)e.Node.Tag;
                 atnevezettKategoria.Nev = e.Label;
                 _context.SaveChanges();
             }
         }
-
         private void ujFokategoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TermekKategoria kategoria = new TermekKategoria();
-            kategoria.Nev = "Uj Kategoria";
+            var kategoria = new TermekKategoria { Nev = "Uj Kategoria" };
             _context.TermekKategoria.Add(kategoria);
             _context.SaveChanges();
-            TreeNode ujTreeNode = new TreeNode(kategoria.Nev);
-            ujTreeNode.Tag = kategoria;
+            var ujTreeNode = new TreeNode(kategoria.Nev) { Tag = kategoria };
             treeViewKategoriak.Nodes.Add(ujTreeNode);
             ujTreeNode.BeginEdit();
         }
-
         private void ujAlkategoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (treeViewKategoriak.SelectedNode != null)
             {
-                TermekKategoria kategoria = new TermekKategoria();
-                kategoria.Nev = "Uj Kategoria";
-                kategoria.SzuloKategoriaId = ((TermekKategoria)treeViewKategoriak.SelectedNode.Tag).SzuloKategoriaId;
+                var szuloKategoria = (TermekKategoria)treeViewKategoriak.SelectedNode.Tag;
+                var kategoria = new TermekKategoria { Nev = "Uj Kategoria", SzuloKategoriaId = szuloKategoria.SzuloKategoriaId };
                 _context.TermekKategoria.Add(kategoria);
                 _context.SaveChanges();
-                TreeNode ujTreeNode = new TreeNode(kategoria.Nev);
-                ujTreeNode.Tag = kategoria;
+                var ujTreeNode = new TreeNode(kategoria.Nev) { Tag = kategoria };
                 treeViewKategoriak.SelectedNode.Nodes.Add(ujTreeNode);
                 ujTreeNode.BeginEdit();
             }
         }
-
-        private void frissitesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LoadKategoriak();
-        }
-
+        private void frissitesToolStripMenuItem_Click(object sender, EventArgs e) => LoadCategories();
         private void torlesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (treeViewKategoriak.SelectedNode != null)
+            if (treeViewKategoriak.SelectedNode == null) return;
+            if (treeViewKategoriak.SelectedNode.Nodes.Count > 0)
             {
-                if (treeViewKategoriak.SelectedNode.Nodes.Count == 0)
-                {
-                    var result = MessageBox.Show("Biztosan torolni szeretne?", "Torles megerositese", MessageBoxButtons.YesNo);
-                    if (result == DialogResult.Yes)
-                    {
-                        TermekKategoria kategoria = (TermekKategoria)treeViewKategoriak.SelectedNode.Tag;
-                        _context.TermekKategoria.Remove(kategoria);
-                        _context.SaveChanges();
-                        treeViewKategoriak.Nodes.Remove(treeViewKategoriak.SelectedNode);
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("A termeknek alkategoriai vannak, nem torolheto.");
-                }
+                MessageBox.Show("A termeknek alkategoriai vannak, nem torolheto.");
+                return;
+            }
+            var confirmDelete = MessageBox.Show("Biztosan torolni szeretne?", "Torles megerositese", MessageBoxButtons.YesNo);
+            if (confirmDelete == DialogResult.Yes)
+            {
+                var kategoria = (TermekKategoria)treeViewKategoriak.SelectedNode.Tag;
+                _context.TermekKategoria.Remove(kategoria);
+                _context.SaveChanges();
+                treeViewKategoriak.Nodes.Remove(treeViewKategoriak.SelectedNode);
             }
         }
         private void treeViewKategoriak_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
@@ -245,29 +200,23 @@ namespace Rendeles_Forms_IASR1J
                 contextMenuStripKategoria.Show(treeViewKategoriak, e.Location);
             }
         }
-
         private void mentesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (SaveFileDialog sfd = new SaveFileDialog())
+            using (var saveFileDialog = new SaveFileDialog { Filter = "XML files (*.xml)|*.xml", Title = "Kategóriák mentése XML fájlba" })
             {
-                sfd.Filter = "XML files (*.xml)|*.xml|All files (*.*)|*.*";
-                sfd.Title = "Kategóriák mentése XML fájlba";
-                if (sfd.ShowDialog() == DialogResult.OK)
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     try
                     {
-                        XDocument xdoc = new XDocument();
-                        XDeclaration xdecl = new XDeclaration("1.0", "utf-8", "yes");
-                        xdoc.Declaration = xdecl;
-                        XElement root = new XElement("Kategoriak");
-                        xdoc.Add(root);
-                        var kategoriak = _context.TermekKategoria.ToList();
-                        foreach (var kategoria in kategoriak.Where(c => c.SzuloKategoriaId == null))
+                        var xdoc = new XDocument(new XDeclaration("1.0", "utf-8", "yes"));
+                        var root = new XElement("Kategoriak");
+                        var categories = _context.TermekKategoria.ToList();
+                        foreach (var category in categories.Where(c => c.SzuloKategoriaId == null))
                         {
-                            XElement kategoiaElem = KategoriaElemLetrehozasa(kategoria, kategoriak);
-                            root.Add(kategoiaElem);
+                            root.Add(CreateCategoryElement(category, categories));
                         }
-                        xdoc.Save(sfd.FileName);
+                        xdoc.Add(root);
+                        xdoc.Save(saveFileDialog.FileName);
                         MessageBox.Show("A kategóriák sikeresen mentésre kerültek!");
                     }
                     catch (Exception ex)
@@ -277,26 +226,18 @@ namespace Rendeles_Forms_IASR1J
                 }
             }
         }
-        private XElement KategoriaElemLetrehozasa(TermekKategoria kategoria, List<TermekKategoria> osszesKategoria)
+        private XElement CreateCategoryElement(TermekKategoria category, List<TermekKategoria> allCategories)
         {
-            XElement kategoriaElem = new XElement
-            (
-                "Kategoria",
-                new XAttribute("KategoriaId", kategoria.KategoriaId),
-                new XAttribute("Nev", kategoria.Nev)
+            var element = new XElement( "Kategoria",
+                                        new XAttribute("KategoriaId", category.KategoriaId),
+                                        new XAttribute("Nev", category.Nev)
             );
-            var alkategoriak = osszesKategoria.Where(c => c.SzuloKategoriaId == kategoria.KategoriaId).ToList();
-            foreach (var alkategoria in alkategoriak)
+            var subcategories = allCategories.Where(c => c.SzuloKategoriaId == category.KategoriaId).ToList();
+            foreach (var subcategory in subcategories)
             {
-                XElement alkategoriaElem = KategoriaElemLetrehozasa(alkategoria, osszesKategoria);
-                kategoriaElem.Add(alkategoriaElem);
+                element.Add(CreateCategoryElement(subcategory, allCategories));
             }
-            return kategoriaElem;
-        }
-
-        private void FormTermekKategoria_Load(object sender, EventArgs e)
-        {
-
+            return element;
         }
     }
 }

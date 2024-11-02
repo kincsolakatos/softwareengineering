@@ -11,143 +11,38 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Rendeles_Forms_IASR1J
 {
     public partial class FormUgyfelSzerkesztes : Form
     {
-        public Ugyfel SzerkesztettUgyfel
-        {
-            get;
-            set;
-        }
-        public Cim SzerkesztettCim
-        {
-            get;
-            set;
-        }
+        public Ugyfel SzerkesztettUgyfel { get; set; }
+        public Cim SzerkesztettCim { get;  set; }
         private RendelesDbContext _context;
+        private ErrorProvider _errorProvider;
         public FormUgyfelSzerkesztes(Ugyfel ugyfel = null, Cim cim = null)
         {
             InitializeComponent();
             _context = new RendelesDbContext();
-            this.SzerkesztettUgyfel = ugyfel ?? new Ugyfel();
+            SzerkesztettUgyfel = ugyfel ?? new Ugyfel();
+            SzerkesztettCim = cim ?? new Cim();
             ugyfelBindingSource.DataSource = SzerkesztettUgyfel;
-            this.SzerkesztettCim = cim ?? new Cim();
             cimBindingSource.DataSource = SzerkesztettCim;
-
+            _errorProvider = new ErrorProvider();
         }
-
         private void FormUgyfelSzerkesztes_Load(object sender, EventArgs e)
         {
             CimekBetoltese();
-        }
-
-        private void buttonMegse_Click(object sender, EventArgs e)
-        {
-            this.DialogResult = DialogResult.Cancel;
-        }
-
-        private void buttonUjElemHozzaadasa_Click(object sender, EventArgs e)
-        {
-            bool valid = this.ValidateChildren();
-            if (valid)
-            {
-                Cim ujCim = new Cim();
-                if (radioButtonUjCimBeallitasa.Checked)
-                {
-                    ujCim = new Cim
-                    {
-                        Utca = textBoxUtca.Text,
-                        Hazszam = textBoxHazszam.Text,
-                        Varos = textBoxVaros.Text,
-                        Iranyitoszam = textBoxIranyitoszam.Text,
-                        Orszag = textBoxOrszag.Text,
-                    };
-                    _context.Cim.Add(ujCim);
-                    _context.SaveChanges();
-                    this.SzerkesztettCim = ujCim;
-                }
-                else if (radioButtonLetezoCimBeallitasa.Checked)
-                {
-                    var cimId = (int)comboBoxLetezoCimBeallitasa.SelectedValue;
-                    this.SzerkesztettCim = _context.Cim.Find(cimId);
-                }
-                ugyfelBindingSource.EndEdit();
-                this.DialogResult = DialogResult.OK;
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Kerjuk, javitsa a hibas mezoket!");
-                return;
-            }
-        }
-
-        ErrorProvider errorProvider = new ErrorProvider();
-        private void textBoxNev_Validating(object sender, CancelEventArgs e)
-        {
-            Regex regexNev = new Regex(@"^[\p{L} .'-]+$");
-            if (string.IsNullOrWhiteSpace(textBoxNev.Text) || !regexNev.IsMatch(textBoxNev.Text))
-            {
-                errorProvider.SetError(textBoxNev, "A nev csak kis es nagybetuket jelenithet meg.");
-                e.Cancel = true;
-            }
-            else
-            {
-                errorProvider.SetError(textBoxNev, "");
-            }
-        }
-        private void textBoxEmail_Validating(object sender, CancelEventArgs e)
-        {
-            Regex regexEmail = new Regex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.IgnoreCase);
-            if (string.IsNullOrWhiteSpace(textBoxEmail.Text) || !regexEmail.IsMatch(textBoxEmail.Text))
-            {
-                errorProvider.SetError(textBoxEmail, "Kerjuk, adjon meg egy ervenyes email cimet.");
-                e.Cancel = true;
-            }
-            else
-            {
-                errorProvider.SetError(textBoxEmail, "");
-            }
-        }
-        private void textBoxTelefonszam_Validating(object sender, CancelEventArgs e)
-        {
-            Regex regexTelefonszam = new Regex(@"^\+36(?:20|30|31|50|70)(\d{7})$");
-            if (string.IsNullOrWhiteSpace(textBoxTelefonszam.Text) || !regexTelefonszam.IsMatch(textBoxTelefonszam.Text))
-            {
-                errorProvider.SetError(textBoxTelefonszam, "Kerjuk, adjon meg egy ervenyes magyar mobilszamot.");
-                e.Cancel = true;
-            }
-            else
-            {
-                errorProvider.SetError(textBoxTelefonszam, "");
-            }
+            FrissitCimMezoElerhetoseget();
         }
         private void CimekBetoltese()
         {
-            var cimek = _context.Cim.Select(c => new
-            {
-                c.CimId,
-                TeljesCim = c.Varos + " " + c.Utca + " " + c.Hazszam + ". " + c.Iranyitoszam + ", " + c.Orszag
-            }).ToList();
-            comboBoxLetezoCimBeallitasa.DataSource = cimek;
+            comboBoxLetezoCimBeallitasa.DataSource = _context.Cim
+                .Select(c => new { c.CimId, TeljesCim = $"{c.Varos} {c.Utca} {c.Hazszam}, {c.Iranyitoszam}, {c.Orszag}" })
+                .ToList();
             comboBoxLetezoCimBeallitasa.DisplayMember = "TeljesCim";
             comboBoxLetezoCimBeallitasa.ValueMember = "CimId";
         }
-
-        private void radioButtonLetezoCimBeallitasa_CheckedChanged(object sender, EventArgs e)
-        {
-            bool letezoCim = radioButtonLetezoCimBeallitasa.Checked;
-
-            comboBoxLetezoCimBeallitasa.Enabled = letezoCim;
-            textBoxOrszag.Enabled = !letezoCim;
-            textBoxIranyitoszam.Enabled = !letezoCim;
-            textBoxVaros.Enabled = !letezoCim;
-            textBoxUtca.Enabled = !letezoCim;
-            textBoxHazszam.Enabled = !letezoCim;
-        }
-        private void radioButtonUjCimBeallitasa_CheckedChanged(object sender, EventArgs e)
+        private void FrissitCimMezoElerhetoseget()
         {
             bool ujCim = radioButtonUjCimBeallitasa.Checked;
             textBoxOrszag.Enabled = ujCim;
@@ -157,72 +52,84 @@ namespace Rendeles_Forms_IASR1J
             textBoxHazszam.Enabled = ujCim;
             comboBoxLetezoCimBeallitasa.Enabled = !ujCim;
         }
-        private void textBoxUtca_Validating(object sender, CancelEventArgs e)
+        private void buttonMegse_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(textBoxUtca.Text))
-            {
-                errorProvider.SetError(textBoxUtca, "Az utca mező kitöltése kötelező.");
-                e.Cancel = true;
-            }
-            else
-            {
-                errorProvider.SetError(textBoxUtca, "");
-            }
+            this.DialogResult = DialogResult.Cancel;
         }
-
-        private void textBoxHazszam_Validating(object sender, CancelEventArgs e)
+        private void buttonUjElemHozzaadasa_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(textBoxHazszam.Text))
+            if (!ValidateChildren()) return;
+            if (radioButtonUjCimBeallitasa.Checked)
             {
-                errorProvider.SetError(textBoxHazszam, "A házszám mező kitöltése kötelező.");
-                e.Cancel = true;
+                SzerkesztettCim = new Cim
+                {
+                    Orszag = textBoxOrszag.Text,
+                    Iranyitoszam = textBoxIranyitoszam.Text,
+                    Varos = textBoxVaros.Text,
+                    Utca = textBoxUtca.Text,
+                    Hazszam = textBoxHazszam.Text
+                };
+                _context.Cim.Add(SzerkesztettCim);
             }
-            else
+            else if (radioButtonLetezoCimBeallitasa.Checked)
             {
-                errorProvider.SetError(textBoxHazszam, "");
+                int cimId = (int)comboBoxLetezoCimBeallitasa.SelectedValue;
+                SzerkesztettCim = _context.Cim.Find(cimId);
             }
+            ugyfelBindingSource.EndEdit();
+            _context.SaveChanges();
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
-
-        private void textBoxVaros_Validating(object sender, CancelEventArgs e)
+        private void radioButtonLetezoCimBeallitasa_CheckedChanged(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(textBoxVaros.Text))
-            {
-                errorProvider.SetError(textBoxVaros, "A város mező kitöltése kötelező.");
-                e.Cancel = true;
-            }
-            else
-            {
-                errorProvider.SetError(textBoxVaros, "");
-            }
+            FrissitCimMezoElerhetoseget();
         }
-
+        private void radioButtonUjCimBeallitasa_CheckedChanged(object sender, EventArgs e)
+        {
+            FrissitCimMezoElerhetoseget();
+        }
+        private void textBoxNev_Validating(object sender, CancelEventArgs e)
+        {
+            ValidalTextBox(textBoxNev, @"^[\p{L} .'-]+$", "A név csak betűket tartalmazhat.", e);
+        }
+        private void textBoxEmail_Validating(object sender, CancelEventArgs e)
+        {
+            ValidalTextBox(textBoxEmail, @"^[^@\s]+@[^@\s]+\.[^@\s]+$", "Kérjük, adjon meg egy érvényes email címet.", e);
+        }
+        private void textBoxTelefonszam_Validating(object sender, CancelEventArgs e)
+        {
+            ValidalTextBox(textBoxTelefonszam, @"^\+36(?:20|30|31|50|70)(\d{7})$", "Kérjük, adjon meg egy érvényes magyar mobilszámot.", e);
+        }
         private void textBoxIranyitoszam_Validating(object sender, CancelEventArgs e)
         {
-            Regex regexIranyitoszam = new Regex(@"^\d{4}$");
-            if (string.IsNullOrWhiteSpace(textBoxIranyitoszam.Text) || !regexIranyitoszam.IsMatch(textBoxIranyitoszam.Text))
-            {
-                errorProvider.SetError(textBoxIranyitoszam, "Kérjük, adjon meg egy érvényes irányítószámot (4 számjegy).");
-                e.Cancel = true;
-            }
-            else
-            {
-                errorProvider.SetError(textBoxIranyitoszam, "");
-            }
+            ValidalTextBox(textBoxIranyitoszam, @"^\d{4}$", "Kérjük, adjon meg egy 4 számjegyű irányítószámot.", e);
         }
-
-        private void textBoxOrszag_Validating(object sender, CancelEventArgs e)
+        private void SimaTextBox_Validating(object sender, CancelEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(textBoxOrszag.Text))
+            TextBox tb = sender as TextBox;
+            if (string.IsNullOrWhiteSpace(tb.Text))
             {
-                errorProvider.SetError(textBoxOrszag, "Az ország mező kitöltése kötelező.");
+                _errorProvider.SetError(tb, "Ez a mező kötelező.");
                 e.Cancel = true;
             }
             else
             {
-                errorProvider.SetError(textBoxOrszag, "");
+                _errorProvider.SetError(tb, "");
             }
         }
-        
-        
+        private void ValidalTextBox(TextBox textBox, string pattern, string errorMessage, CancelEventArgs e)
+        {
+            Regex regex = new Regex(pattern);
+            if (string.IsNullOrEmpty(textBox.Text) || !regex.IsMatch(textBox.Text))
+            {
+                _errorProvider.SetError(textBox, errorMessage);
+                e.Cancel = true;
+            }
+            else
+            {
+                _errorProvider.SetError(textBox, "");
+            }
+        }
     }
 }

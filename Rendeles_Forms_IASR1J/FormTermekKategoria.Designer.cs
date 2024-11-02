@@ -54,7 +54,7 @@
             treeViewKategoriak.LabelEdit = true;
             treeViewKategoriak.Location = new Point(12, 12);
             treeViewKategoriak.Name = "treeViewKategoriak";
-            treeViewKategoriak.Size = new Size(405, 426);
+            treeViewKategoriak.Size = new Size(392, 426);
             treeViewKategoriak.TabIndex = 0;
             treeViewKategoriak.AfterSelect += treeViewKategoriak_AfterSelect;
             // 
@@ -118,9 +118,9 @@
             // 
             // buttonUjTestverKategoria
             // 
-            buttonUjTestverKategoria.Location = new Point(609, 415);
+            buttonUjTestverKategoria.Location = new Point(603, 415);
             buttonUjTestverKategoria.Name = "buttonUjTestverKategoria";
-            buttonUjTestverKategoria.Size = new Size(118, 23);
+            buttonUjTestverKategoria.Size = new Size(124, 23);
             buttonUjTestverKategoria.TabIndex = 2;
             buttonUjTestverKategoria.Text = "Uj Testver Kategoria";
             buttonUjTestverKategoria.UseVisualStyleBackColor = true;
@@ -128,7 +128,7 @@
             // 
             // buttonUjGyermekKategoria
             // 
-            buttonUjGyermekKategoria.Location = new Point(474, 415);
+            buttonUjGyermekKategoria.Location = new Point(468, 415);
             buttonUjGyermekKategoria.Name = "buttonUjGyermekKategoria";
             buttonUjGyermekKategoria.Size = new Size(129, 23);
             buttonUjGyermekKategoria.TabIndex = 3;
@@ -138,9 +138,9 @@
             // 
             // buttonTorles
             // 
-            buttonTorles.Location = new Point(423, 415);
+            buttonTorles.Location = new Point(410, 415);
             buttonTorles.Name = "buttonTorles";
-            buttonTorles.Size = new Size(45, 23);
+            buttonTorles.Size = new Size(52, 23);
             buttonTorles.TabIndex = 4;
             buttonTorles.Text = "Torles";
             buttonTorles.UseVisualStyleBackColor = true;
@@ -149,7 +149,7 @@
             // labelNev
             // 
             labelNev.AutoSize = true;
-            labelNev.Location = new Point(432, 15);
+            labelNev.Location = new Point(419, 15);
             labelNev.Name = "labelNev";
             labelNev.Size = new Size(31, 15);
             labelNev.TabIndex = 5;
@@ -157,22 +157,22 @@
             // 
             // textBoxNev
             // 
-            textBoxNev.Location = new Point(469, 12);
+            textBoxNev.Location = new Point(456, 15);
             textBoxNev.Name = "textBoxNev";
-            textBoxNev.Size = new Size(319, 23);
+            textBoxNev.Size = new Size(332, 23);
             textBoxNev.TabIndex = 6;
             // 
             // textBoxLeiras
             // 
-            textBoxLeiras.Location = new Point(469, 41);
+            textBoxLeiras.Location = new Point(456, 41);
             textBoxLeiras.Name = "textBoxLeiras";
-            textBoxLeiras.Size = new Size(319, 23);
+            textBoxLeiras.Size = new Size(332, 23);
             textBoxLeiras.TabIndex = 7;
             // 
             // labelLeiras
             // 
             labelLeiras.AutoSize = true;
-            labelLeiras.Location = new Point(423, 44);
+            labelLeiras.Location = new Point(410, 44);
             labelLeiras.Name = "labelLeiras";
             labelLeiras.Size = new Size(40, 15);
             labelLeiras.TabIndex = 8;
@@ -194,7 +194,6 @@
             Controls.Add(treeViewKategoriak);
             Name = "FormTermekKategoria";
             Text = "FormTermekKategoria";
-            Load += FormTermekKategoria_Load;
             contextMenuStripKategoria.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();

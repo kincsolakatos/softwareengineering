@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace Rendeles_Forms_IASR1J
 {
     public partial class Form1 : Form
@@ -6,28 +8,26 @@ namespace Rendeles_Forms_IASR1J
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonTermekKategoriakKezelese_Click(object sender, EventArgs e)
         {
-            FormTermekKategoria formTermekKategoria = new FormTermekKategoria();
-            formTermekKategoria.ShowDialog();
+            using (var form = new FormTermekKategoria())
+            {
+                form.ShowDialog();
+            }
         }
-
         private void buttonUgyfelLista_Click(object sender, EventArgs e)
         {
-            FormUgyfelKezelo formUgyfelKezelo = new FormUgyfelKezelo();
-            formUgyfelKezelo.ShowDialog();
+            using (var form = new FormUgyfelKezelo())
+            {
+                form.ShowDialog();
+            }
         }
-
         private void buttonRendelesek_Click(object sender, EventArgs e)
         {
-            FormRendeles formRendeles = new FormRendeles();
-            formRendeles.ShowDialog();
+            using(var form = new FormRendeles())
+            {
+                form.ShowDialog();
+            }
         }
     }
 }

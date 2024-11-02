@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rendeles_Forms_IASR1J")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33722c6bab29fec2795fa14a747888a1bbd53b6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0ae5c0c67793b6f797d578a2a7800fe2dc6eb34")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rendeles_Forms_IASR1J")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rendeles_Forms_IASR1J")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,17 +6,9 @@ using System.Threading.Tasks;
 
 namespace Rendeles_Forms_IASR1J
 {
-    public class CimEgybenDTO
+    public class CimDTO
     {
-        public int CimId 
-        { 
-            get; 
-            set; 
-        }
-        public string? CimEgyben
-        {
-            get;
-            set;
-        }
+        public int Id { get; set; }
+        public string? Cim { get; set;  }
     }
 }
