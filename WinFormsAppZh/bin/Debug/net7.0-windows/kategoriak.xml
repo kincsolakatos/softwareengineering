@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kategoriak>
+  <Kategoria KategoriaId="1" Nev="Elektronika" />
+  <Kategoria KategoriaId="2" Nev="Háztartási Gépek" />
+  <Kategoria KategoriaId="3" Nev="Ruházat" />
+  <Kategoria KategoriaId="4" Nev="Sporteszközök" />
+  <Kategoria KategoriaId="5" Nev="Bútorok" />
+  <Kategoria KategoriaId="6" Nev="Televíziók" />
+  <Kategoria KategoriaId="7" Nev="Mobiltelefonok" />
+  <Kategoria KategoriaId="8" Nev="Számítógépek" />
+  <Kategoria KategoriaId="9" Nev="Mosógépek" />
+  <Kategoria KategoriaId="10" Nev="Hutoszekrények" />
+  <Kategoria KategoriaId="11" Nev="Konyhai Gépek" />
+  <Kategoria KategoriaId="12" Nev="Noi Ruházat" />
+  <Kategoria KategoriaId="13" Nev="Férfi Ruházat" />
+  <Kategoria KategoriaId="14" Nev="Gyermek Ruházat" />
+  <Kategoria KategoriaId="15" Nev="Teniszütok" />
+  <Kategoria KategoriaId="16" Nev="Futópadok" />
+  <Kategoria KategoriaId="17" Nev="Kerékpárok" />
+  <Kategoria KategoriaId="18" Nev="Ágyak" />
+  <Kategoria KategoriaId="19" Nev="Kanapék" />
+  <Kategoria KategoriaId="20" Nev="Asztalok" />
+  <Kategoria KategoriaId="21" Nev="Hordozható Hangszórók" />
+  <Kategoria KategoriaId="22" Nev="Fülhallgatók" />
+  <Kategoria KategoriaId="23" Nev="Fotókamerák" />
+  <Kategoria KategoriaId="24" Nev="Vasalók" />
+  <Kategoria KategoriaId="25" Nev="Porszívók" />
+  <Kategoria KategoriaId="26" Nev="Légkondicionálók" />
+  <Kategoria KategoriaId="27" Nev="Cipok" />
+  <Kategoria KategoriaId="28" Nev="Kiegészítok" />
+  <Kategoria KategoriaId="29" Nev="Alsónemuk" />
+  <Kategoria KategoriaId="30" Nev="Úszóeszközök" />
+  <Kategoria KategoriaId="31" Nev="Jóga Eszközök" />
+  <Kategoria KategoriaId="32" Nev="Kültéri Sporteszközök" />
+  <Kategoria KategoriaId="33" Nev="Könyvespolcok" />
+  <Kategoria KategoriaId="34" Nev="Fiókos Szekrények" />
+  <Kategoria KategoriaId="35" Nev="Étkezoszékek" />
+  <Kategoria KategoriaId="36" Nev="Szépségápolás" />
+  <Kategoria KategoriaId="37" Nev="Könyvek" />
+  <Kategoria KategoriaId="38" Nev="Játékok" />
+  <Kategoria KategoriaId="39" Nev="Autós Kiegészítok" />
+  <Kategoria KategoriaId="40" Nev="Arckrémek" />
+  <Kategoria KategoriaId="41" Nev="Sampont" />
+  <Kategoria KategoriaId="42" Nev="Sminktermékek" />
+  <Kategoria KategoriaId="43" Nev="Fikció" />
+  <Kategoria KategoriaId="44" Nev="Tudományos Könyvek" />
+  <Kategoria KategoriaId="45" Nev="Gyerek Könyvek" />
+  <Kategoria KategoriaId="46" Nev="Plüssállatok" />
+  <Kategoria KategoriaId="47" Nev="Építokockák" />
+  <Kategoria KategoriaId="48" Nev="Társasjátékok" />
+  <Kategoria KategoriaId="49" Nev="Navigációs Rendszerek" />
+  <Kategoria KategoriaId="50" Nev="Autóápolási Termékek" />
+  <Kategoria KategoriaId="51" Nev="Autós Üléshuzatok" />
+  <Kategoria KategoriaId="53" Nev="Ékszerek" />
+  <Kategoria KategoriaId="54" Nev="Kutyaápolás" />
+  <Kategoria KategoriaId="55" Nev="Macskaápolás" />
+  <Kategoria KategoriaId="56" Nev="Állateleség" />
+  <Kategoria KategoriaId="57" Nev="Nyakláncok" />
+  <Kategoria KategoriaId="58" Nev="Karkötok" />
+  <Kategoria KategoriaId="59" Nev="Gyuruk" />
+  <Kategoria KategoriaId="60" Nev="Elektronika" />
+  <Kategoria KategoriaId="61" Nev="Háztartási Gépek" />
+  <Kategoria KategoriaId="62" Nev="Ruházat" />
+  <Kategoria KategoriaId="63" Nev="Sporteszközök" />
+  <Kategoria KategoriaId="64" Nev="Bútorok" />
+  <Kategoria KategoriaId="65" Nev="Szépségápolás" />
+  <Kategoria KategoriaId="66" Nev="Könyvek" />
+  <Kategoria KategoriaId="67" Nev="Játékok" />
+  <Kategoria KategoriaId="68" Nev="Autós Kiegészítok" />
+  <Kategoria KategoriaId="70" Nev="Televíziók" />
+  <Kategoria KategoriaId="71" Nev="Mobiltelefonok" />
+  <Kategoria KategoriaId="72" Nev="Számítógépek" />
+  <Kategoria KategoriaId="73" Nev="Hordozható Hangszórók" />
+  <Kategoria KategoriaId="74" Nev="Fülhallgatók" />
+  <Kategoria KategoriaId="75" Nev="Fotókamerák" />
+  <Kategoria KategoriaId="76" Nev="Mosógépek" />
+  <Kategoria KategoriaId="77" Nev="Hutoszekrények" />
+  <Kategoria KategoriaId="78" Nev="Konyhai Gépek" />
+  <Kategoria KategoriaId="79" Nev="Vasalók" />
+  <Kategoria KategoriaId="80" Nev="Porszívók" />
+  <Kategoria KategoriaId="81" Nev="Légkondicionálók" />
+  <Kategoria KategoriaId="82" Nev="Noi Ruházat" />
+  <Kategoria KategoriaId="83" Nev="Férfi Ruházat" />
+  <Kategoria KategoriaId="84" Nev="Gyermek Ruházat" />
+  <Kategoria KategoriaId="85" Nev="Cipok" />
+  <Kategoria KategoriaId="86" Nev="Kiegészítok" />
+  <Kategoria KategoriaId="87" Nev="Alsónemuk" />
+  <Kategoria KategoriaId="88" Nev="Teniszütok" />
+  <Kategoria KategoriaId="89" Nev="Futópadok" />
+  <Kategoria KategoriaId="90" Nev="Kerékpárok" />
+  <Kategoria KategoriaId="91" Nev="Úszóeszközök" />
+  <Kategoria KategoriaId="92" Nev="Jóga Eszközök" />
+  <Kategoria KategoriaId="93" Nev="Kültéri Sporteszközök" />
+  <Kategoria KategoriaId="94" Nev="Könyvespolcok" />
+  <Kategoria KategoriaId="95" Nev="Fiókos Szekrények" />
+  <Kategoria KategoriaId="96" Nev="Étkezoszékek" />
+  <Kategoria KategoriaId="97" Nev="Ágyak" />
+  <Kategoria KategoriaId="98" Nev="Kanapék" />
+  <Kategoria KategoriaId="99" Nev="Arckrémek" />
+  <Kategoria KategoriaId="100" Nev="Sampont" />
+  <Kategoria KategoriaId="101" Nev="Sminktermékek" />
+  <Kategoria KategoriaId="102" Nev="Testápolók" />
+  <Kategoria KategoriaId="103" Nev="Fikció" />
+  <Kategoria KategoriaId="104" Nev="Tudományos Könyvek" />
+  <Kategoria KategoriaId="105" Nev="Gyerek Könyvek" />
+  <Kategoria KategoriaId="106" Nev="Plüssállatok" />
+  <Kategoria KategoriaId="107" Nev="Építokockák" />
+  <Kategoria KategoriaId="108" Nev="Társasjátékok" />
+  <Kategoria KategoriaId="109" Nev="Navigációs Rendszerek" />
+  <Kategoria KategoriaId="110" Nev="Autóápolási Termékek" />
+  <Kategoria KategoriaId="111" Nev="Autós Üléshuzatok" />
+  <Kategoria KategoriaId="112" Nev="Kutyaápolás" />
+  <Kategoria KategoriaId="113" Nev="Macskaápolás" />
+  <Kategoria KategoriaId="114" Nev="Állateleség" />
+  <Kategoria KategoriaId="115" Nev="Nyakláncok" />
+  <Kategoria KategoriaId="116" Nev="Karkötok" />
+  <Kategoria KategoriaId="117" Nev="Gyuruk" />
+</Kategoriak>

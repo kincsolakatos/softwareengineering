@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rendeles_Forms_IASR1J", "Rendeles_Forms_IASR1J\Rendeles_Forms_IASR1J.csproj", "{EACC2FD3-D936-4BE0-B9CE-4451AABAE0DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rendeles_Forms_IASR1J", "Rendeles_Forms_IASR1J\Rendeles_Forms_IASR1J.csproj", "{EACC2FD3-D936-4BE0-B9CE-4451AABAE0DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsAppZh", "WinFormsAppZh\WinFormsAppZh.csproj", "{1F177E98-5071-49AF-901F-D0E52A3A396B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryAdatbazis", "InMemoryAdatbazis\InMemoryAdatbazis.csproj", "{E1D474D3-4439-471D-8A90-5384592BF200}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceptesAdatbazis", "ReceptesAdatbazis\ReceptesAdatbazis.csproj", "{6935E385-5B61-478A-8088-F6F372883A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceptesAdatbazis2", "ReceptesAdatbazis2\ReceptesAdatbazis2.csproj", "{E9F6F055-9C58-4383-99A7-7ABA2785486F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryAdatbazis2", "InMemoryAdatbazis2\InMemoryAdatbazis2.csproj", "{446DE24A-09AF-4DA2-A428-DCB48DD97A33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{EACC2FD3-D936-4BE0-B9CE-4451AABAE0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACC2FD3-D936-4BE0-B9CE-4451AABAE0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACC2FD3-D936-4BE0-B9CE-4451AABAE0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F177E98-5071-49AF-901F-D0E52A3A396B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F177E98-5071-49AF-901F-D0E52A3A396B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F177E98-5071-49AF-901F-D0E52A3A396B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F177E98-5071-49AF-901F-D0E52A3A396B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D474D3-4439-471D-8A90-5384592BF200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D474D3-4439-471D-8A90-5384592BF200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D474D3-4439-471D-8A90-5384592BF200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D474D3-4439-471D-8A90-5384592BF200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6935E385-5B61-478A-8088-F6F372883A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6935E385-5B61-478A-8088-F6F372883A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6935E385-5B61-478A-8088-F6F372883A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6935E385-5B61-478A-8088-F6F372883A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F6F055-9C58-4383-99A7-7ABA2785486F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F6F055-9C58-4383-99A7-7ABA2785486F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F6F055-9C58-4383-99A7-7ABA2785486F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F6F055-9C58-4383-99A7-7ABA2785486F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446DE24A-09AF-4DA2-A428-DCB48DD97A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446DE24A-09AF-4DA2-A428-DCB48DD97A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446DE24A-09AF-4DA2-A428-DCB48DD97A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446DE24A-09AF-4DA2-A428-DCB48DD97A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

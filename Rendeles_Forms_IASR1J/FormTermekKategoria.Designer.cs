@@ -194,6 +194,7 @@
             Controls.Add(treeViewKategoriak);
             Name = "FormTermekKategoria";
             Text = "FormTermekKategoria";
+            Load += FormTermekKategoria_Load;
             contextMenuStripKategoria.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();

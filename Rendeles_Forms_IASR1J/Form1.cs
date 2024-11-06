@@ -24,10 +24,15 @@ namespace Rendeles_Forms_IASR1J
         }
         private void buttonRendelesek_Click(object sender, EventArgs e)
         {
-            using(var form = new FormRendeles())
+            using (var form = new FormRendeles())
             {
                 form.ShowDialog();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
