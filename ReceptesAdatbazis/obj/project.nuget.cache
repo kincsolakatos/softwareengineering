@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WWwOAoUKoV9MJpE1yZgiTMNj4i5MJBSnPeAeI4sxDxMycznPO6xRC5k9lRclkT8NVmNpljFE4uKXY9Ux++Asqg==",
+  "dgSpecHash": "IOX119CBVZj0V7BGumRogYh2PNL80pQSuXNbIhIrd+tZDbZK0fVANsY5k9nFuv4tNzhxixUqkHCs7/x02Vxovw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\ReceptesAdatbazis\\ReceptesAdatbazis.csproj",
+  "projectFilePath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ReceptesAdatbazis\\ReceptesAdatbazis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kincs\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kincs\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

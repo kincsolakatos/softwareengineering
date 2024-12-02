@@ -105,7 +105,7 @@ namespace Rendeles_Forms_IASR1J
         {
             ValidalTextBox(textBoxIranyitoszam, @"^\d{4}$", "Kérjük, adjon meg egy 4 számjegyű irányítószámot.", e);
         }
-        private void SimaTextBox_Validating(object sender, CancelEventArgs e)
+        private void textBox_Validating(object sender, CancelEventArgs e)
         {
             TextBox tb = sender as TextBox;
             if (string.IsNullOrWhiteSpace(tb.Text))

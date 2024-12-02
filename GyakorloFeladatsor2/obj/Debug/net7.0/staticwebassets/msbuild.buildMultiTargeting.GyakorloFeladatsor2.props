@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GyakorloFeladatsor2.props" />
+</Project>

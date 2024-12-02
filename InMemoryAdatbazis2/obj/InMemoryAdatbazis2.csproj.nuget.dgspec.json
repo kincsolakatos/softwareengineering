@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj": {}
+    "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj": {
+    "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj",
+        "projectUniqueName": "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj",
         "projectName": "InMemoryAdatbazis2",
-        "projectPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj",
+        "projectPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj",
         "packagesPath": "C:\\Users\\kincs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\obj\\",
+        "outputPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kincs\\AppData\\Roaming\\NuGet\\NuGet.Config",

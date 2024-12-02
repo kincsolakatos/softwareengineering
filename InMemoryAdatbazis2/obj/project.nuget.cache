@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Riihdo/kaFEzaRfhf+O3AHGMpizDrT+VyFY/IIlMOPZAxkJF1pnlxYGxz27kwhqXzFyrmTok/7/sBfZ60VZ22A==",
+  "dgSpecHash": "Cu4RJzsA1CNIaeXlJ6Yz2zPnWecS7kqIPvZxzpWaXntVLZQZl+GQcbr7XVUsABO3qiS0nUb9QTalgI3Y8o78eQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj",
+  "projectFilePath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kincs\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kincs\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

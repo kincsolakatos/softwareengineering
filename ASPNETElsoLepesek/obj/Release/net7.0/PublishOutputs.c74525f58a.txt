@@ -1,0 +1,12 @@
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\ASPNETElsoLepesek.exe
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\ASPNETElsoLepesek.dll
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\ASPNETElsoLepesek.deps.json
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\ASPNETElsoLepesek.runtimeconfig.json
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\ASPNETElsoLepesek.pdb
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\ASPNETElsoLepesek\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

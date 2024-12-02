@@ -3106,11 +3106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\WinFormsAppZh\\WinFormsAppZh.csproj",
+      "projectUniqueName": "C:\\Users\\kincs\\Desktop\\softwareengineering\\WinFormsAppZh\\WinFormsAppZh.csproj",
       "projectName": "WinFormsAppZh",
-      "projectPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\WinFormsAppZh\\WinFormsAppZh.csproj",
+      "projectPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\WinFormsAppZh\\WinFormsAppZh.csproj",
       "packagesPath": "C:\\Users\\kincs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\WinFormsAppZh\\obj\\",
+      "outputPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\WinFormsAppZh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kincs\\AppData\\Roaming\\NuGet\\NuGet.Config",

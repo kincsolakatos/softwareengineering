@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.ASPNETElsoLepesek.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.ASPNETElsoLepesek.props",
+      "PackagePath": "build\\ASPNETElsoLepesek.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ASPNETElsoLepesek.props",
+      "PackagePath": "buildMultiTargeting\\ASPNETElsoLepesek.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.ASPNETElsoLepesek.props",
+      "PackagePath": "buildTransitive\\ASPNETElsoLepesek.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\index.js",
+      "PackagePath": "staticwebassets\\index.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.GyakorloFeladatsor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.GyakorloFeladatsor.props",
+      "PackagePath": "build\\GyakorloFeladatsor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.GyakorloFeladatsor.props",
+      "PackagePath": "buildMultiTargeting\\GyakorloFeladatsor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.GyakorloFeladatsor.props",
+      "PackagePath": "buildTransitive\\GyakorloFeladatsor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

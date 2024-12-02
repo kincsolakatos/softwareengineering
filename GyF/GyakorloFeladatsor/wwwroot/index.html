@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Könyvek</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Könyvek</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Cím</th>
+                <th>Szerző</th>
+                <th>Kiadás Éve</th>
+                <th>Műfaj</th>
+                <th>Elérhetőség</th>
+            </tr>
+        </thead>
+        <tbody id="tb_konyvek"></tbody>
+    </table>
+    <h2>Új könyv hozzáadása</h2>
+    <form id="addBookForm">
+        <input type="text" id="title" placeholder="Cím" required />
+        <input type="text" id="author" placeholder="Szerző" required />
+        <input type="number" id="year" placeholder="Kiadás éve" required />
+        <input type="text" id="genre" placeholder="Műfaj" required />
+        <button type="submit" id="addButton">Hozzáadás</button>
+    </form>
+    <h2>Könyv törlése</h2>
+    <form id="deleteBookForm">
+        <input type="number" id="deleteId" placeholder="Könyv ID" required />
+        <button type="submit" id="deleteButton">Törlés</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

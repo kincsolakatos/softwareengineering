@@ -3106,11 +3106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\ReceptesAdatbazis\\ReceptesAdatbazis.csproj",
+      "projectUniqueName": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ReceptesAdatbazis\\ReceptesAdatbazis.csproj",
       "projectName": "ReceptesAdatbazis",
-      "projectPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\ReceptesAdatbazis\\ReceptesAdatbazis.csproj",
+      "projectPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ReceptesAdatbazis\\ReceptesAdatbazis.csproj",
       "packagesPath": "C:\\Users\\kincs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\ReceptesAdatbazis\\obj\\",
+      "outputPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ReceptesAdatbazis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kincs\\AppData\\Roaming\\NuGet\\NuGet.Config",

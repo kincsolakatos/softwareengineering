@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zymU7E5vK12wsnampO+npVHaPMM7vIjBbfJK0xdYH7Rbin6bzzv16HLVsARNiyRS+/8EVaaDq6kYrOTAz2o7Fg==",
+  "dgSpecHash": "KhJYEdm5sr0jslGO/ap1kzKc7vL/xrXu4mBWqeeSVPYJFLzM5L3ScKXaOXcrHrcH+3kSp3akAVUhi8oGo8A4PA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\WinFormsAppZh\\WinFormsAppZh.csproj",
+  "projectFilePath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\WinFormsAppZh\\WinFormsAppZh.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kincs\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kincs\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

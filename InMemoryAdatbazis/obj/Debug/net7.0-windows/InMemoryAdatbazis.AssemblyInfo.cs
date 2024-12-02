@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InMemoryAdatbazis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9426d7d6b5cfbd3905010b41f50ebe952499117")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b9013bfe906e168f87902a486bdfc10900ec94e")]
 [assembly: System.Reflection.AssemblyProductAttribute("InMemoryAdatbazis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InMemoryAdatbazis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

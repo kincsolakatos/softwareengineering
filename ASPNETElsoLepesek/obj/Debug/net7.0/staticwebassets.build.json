@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "ZgOcvUlqqqEyPNzJMAESYzdQiGrCZykMOsL/xzH7yZQ=",
+  "Source": "ASPNETElsoLepesek",
+  "BasePath": "_content/ASPNETElsoLepesek",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPNETElsoLepesek\\wwwroot",
+      "Source": "ASPNETElsoLepesek",
+      "ContentRoot": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\",
+      "BasePath": "_content/ASPNETElsoLepesek",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\index.html",
+      "SourceId": "ASPNETElsoLepesek",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\",
+      "BasePath": "_content/ASPNETElsoLepesek",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jokes.html",
+      "SourceId": "ASPNETElsoLepesek",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\",
+      "BasePath": "_content/ASPNETElsoLepesek",
+      "RelativePath": "jokes.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jokes.html"
+    }
+  ]
+}

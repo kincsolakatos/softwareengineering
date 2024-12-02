@@ -3106,11 +3106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
+      "projectUniqueName": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
       "projectName": "Rendeles_Forms_IASR1J",
-      "projectPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
+      "projectPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Rendeles_Forms_IASR1J\\Rendeles_Forms_IASR1J.csproj",
       "packagesPath": "C:\\Users\\kincs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\Rendeles_Forms_IASR1J\\obj\\",
+      "outputPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Rendeles_Forms_IASR1J\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kincs\\AppData\\Roaming\\NuGet\\NuGet.Config",

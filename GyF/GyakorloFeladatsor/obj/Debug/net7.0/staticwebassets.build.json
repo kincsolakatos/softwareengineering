@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "FnoF/o9rSe+maaOwhAVmbGc8lzRANCg749N41U6iAkU=",
+  "Source": "GyakorloFeladatsor",
+  "BasePath": "_content/GyakorloFeladatsor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GyakorloFeladatsor\\wwwroot",
+      "Source": "GyakorloFeladatsor",
+      "ContentRoot": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\",
+      "BasePath": "_content/GyakorloFeladatsor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\index.css",
+      "SourceId": "GyakorloFeladatsor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\",
+      "BasePath": "_content/GyakorloFeladatsor",
+      "RelativePath": "index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\index.html",
+      "SourceId": "GyakorloFeladatsor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\",
+      "BasePath": "_content/GyakorloFeladatsor",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\index.js",
+      "SourceId": "GyakorloFeladatsor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\GyakorloFeladatsor\\wwwroot\\",
+      "BasePath": "_content/GyakorloFeladatsor",
+      "RelativePath": "index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.js"
+    }
+  ]
+}

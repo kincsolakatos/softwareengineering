@@ -286,3 +286,5 @@ C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareenginee
 C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\ref\Rendeles_Forms_IASR1J.dll
 C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
 C:\Users\kincs\OneDrive - Corvinus University of Budapest\Asztal\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\Rendeles_Forms_IASR1J.csproj.ResolveComReference.cache
+C:\Users\kincs\Desktop\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\kincs\Desktop\softwareengineering\Rendeles_Forms_IASR1J\obj\Debug\net7.0-windows\Rendeles_Forms_IASR1J.csproj.ResolveComReference.cache

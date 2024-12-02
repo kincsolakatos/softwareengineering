@@ -11,9 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryAdatbazis", "InMemo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceptesAdatbazis", "ReceptesAdatbazis\ReceptesAdatbazis.csproj", "{6935E385-5B61-478A-8088-F6F372883A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceptesAdatbazis2", "ReceptesAdatbazis2\ReceptesAdatbazis2.csproj", "{E9F6F055-9C58-4383-99A7-7ABA2785486F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceptesAdatbazis2", "ReceptesAdatbazis2\ReceptesAdatbazis2.csproj", "{E9F6F055-9C58-4383-99A7-7ABA2785486F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryAdatbazis2", "InMemoryAdatbazis2\InMemoryAdatbazis2.csproj", "{446DE24A-09AF-4DA2-A428-DCB48DD97A33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryAdatbazis2", "InMemoryAdatbazis2\InMemoryAdatbazis2.csproj", "{446DE24A-09AF-4DA2-A428-DCB48DD97A33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETElsoLepesek", "ASPNETElsoLepesek\ASPNETElsoLepesek.csproj", "{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GyakorloFeladatsor", "GyakorloFeladatsor\GyakorloFeladatsor.csproj", "{021B6D1C-F9A2-4C47-B598-0EF54A34214E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsztaliAlkalmazasKeszitese", "AsztaliAlkalmazasKeszitese\AsztaliAlkalmazasKeszitese.csproj", "{6A589EC9-13D3-4FC3-8469-8DD41700118D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GyakorloFeladatsor2", "GyakorloFeladatsor2\GyakorloFeladatsor2.csproj", "{118454EF-8290-4B5C-A362-7D3F4E1E276B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{446DE24A-09AF-4DA2-A428-DCB48DD97A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{446DE24A-09AF-4DA2-A428-DCB48DD97A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{446DE24A-09AF-4DA2-A428-DCB48DD97A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021B6D1C-F9A2-4C47-B598-0EF54A34214E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021B6D1C-F9A2-4C47-B598-0EF54A34214E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021B6D1C-F9A2-4C47-B598-0EF54A34214E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021B6D1C-F9A2-4C47-B598-0EF54A34214E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A589EC9-13D3-4FC3-8469-8DD41700118D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A589EC9-13D3-4FC3-8469-8DD41700118D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A589EC9-13D3-4FC3-8469-8DD41700118D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A589EC9-13D3-4FC3-8469-8DD41700118D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118454EF-8290-4B5C-A362-7D3F4E1E276B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118454EF-8290-4B5C-A362-7D3F4E1E276B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118454EF-8290-4B5C-A362-7D3F4E1E276B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118454EF-8290-4B5C-A362-7D3F4E1E276B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
