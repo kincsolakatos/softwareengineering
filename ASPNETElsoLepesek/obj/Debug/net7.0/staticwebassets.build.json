@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZgOcvUlqqqEyPNzJMAESYzdQiGrCZykMOsL/xzH7yZQ=",
+  "Hash": "NiAp3fWv13dcbBm4jnzXUo+7K1gmW4DSfl+1Xk82g40=",
   "Source": "ASPNETElsoLepesek",
   "BasePath": "_content/ASPNETElsoLepesek",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.html",
+      "SourceId": "ASPNETElsoLepesek",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\",
+      "BasePath": "_content/ASPNETElsoLepesek",
+      "RelativePath": "geeks.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\geeks.html"
+    },
     {
       "Identity": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\index.html",
       "SourceId": "ASPNETElsoLepesek",

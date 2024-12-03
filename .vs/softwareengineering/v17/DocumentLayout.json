@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\",
+  "WorkspaceRootPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{446DE24A-09AF-4DA2-A428-DCB48DD97A33}|InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj|c:\\users\\kincs\\onedrive - corvinus university of budapest\\asztal\\softwareengineering\\inmemoryadatbazis2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{446DE24A-09AF-4DA2-A428-DCB48DD97A33}|InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj|solutionrelative:inmemoryadatbazis2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\aspnetelsolepesek\\wwwroot\\geeks.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|solutionrelative:aspnetelsolepesek\\wwwroot\\geeks.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{446DE24A-09AF-4DA2-A428-DCB48DD97A33}|InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj|c:\\users\\kincs\\onedrive - corvinus university of budapest\\asztal\\softwareengineering\\inmemoryadatbazis2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{446DE24A-09AF-4DA2-A428-DCB48DD97A33}|InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj|solutionrelative:inmemoryadatbazis2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\aspnetelsolepesek\\wwwroot\\jsgyak.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|solutionrelative:aspnetelsolepesek\\wwwroot\\jsgyak.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{446DE24A-09AF-4DA2-A428-DCB48DD97A33}|InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj|c:\\users\\kincs\\onedrive - corvinus university of budapest\\asztal\\softwareengineering\\inmemoryadatbazis2\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{446DE24A-09AF-4DA2-A428-DCB48DD97A33}|InMemoryAdatbazis2\\InMemoryAdatbazis2.csproj|solutionrelative:inmemoryadatbazis2\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\aspnetelsolepesek\\wwwroot\\jsgyak.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|solutionrelative:aspnetelsolepesek\\wwwroot\\jsgyak.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\aspnetelsolepesek\\wwwroot\\jsgyak.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|solutionrelative:aspnetelsolepesek\\wwwroot\\jsgyak.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\aspnetelsolepesek\\wwwroot\\geeks.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|solutionrelative:aspnetelsolepesek\\wwwroot\\geeks.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\aspnetelsolepesek\\wwwroot\\geeks.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|solutionrelative:aspnetelsolepesek\\wwwroot\\geeks.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\aspnetelsolepesek\\wwwroot\\geeks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|solutionrelative:aspnetelsolepesek\\wwwroot\\geeks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\aspnetelsolepesek\\wwwroot\\jokes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9B55CC7-6119-43CC-B4A4-B12EC5CE3AB4}|ASPNETElsoLepesek\\ASPNETElsoLepesek.csproj|solutionrelative:aspnetelsolepesek\\wwwroot\\jokes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118454EF-8290-4B5C-A362-7D3F4E1E276B}|GyakorloFeladatsor2\\GyakorloFeladatsor2.csproj|C:\\Users\\kincs\\Desktop\\softwareengineering\\gyakorlofeladatsor2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118454EF-8290-4B5C-A362-7D3F4E1E276B}|GyakorloFeladatsor2\\GyakorloFeladatsor2.csproj|solutionrelative:gyakorlofeladatsor2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +46,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\Form1.cs",
-              "RelativeDocumentMoniker": "InMemoryAdatbazis2\\Form1.cs",
-              "ToolTip": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\Form1.cs",
-              "RelativeToolTip": "InMemoryAdatbazis2\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T22:47:05.382Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Students.cs",
-              "DocumentMoniker": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\Models\\Students.cs",
-              "RelativeDocumentMoniker": "InMemoryAdatbazis2\\Models\\Students.cs",
-              "ToolTip": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\Models\\Students.cs",
-              "RelativeToolTip": "InMemoryAdatbazis2\\Models\\Students.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T22:27:33.457Z",
+              "Title": "jsgyak.css",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jsgyak.css",
+              "RelativeDocumentMoniker": "ASPNETElsoLepesek\\wwwroot\\jsgyak.css",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jsgyak.css",
+              "RelativeToolTip": "ASPNETElsoLepesek\\wwwroot\\jsgyak.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-03T19:43:56.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "jsgyak.js",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jsgyak.js",
+              "RelativeDocumentMoniker": "ASPNETElsoLepesek\\wwwroot\\jsgyak.js",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jsgyak.js",
+              "RelativeToolTip": "ASPNETElsoLepesek\\wwwroot\\jsgyak.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-03T19:42:21.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\Form1.cs",
-              "RelativeDocumentMoniker": "InMemoryAdatbazis2\\Form1.cs",
-              "ToolTip": "C:\\Users\\kincs\\OneDrive - Corvinus University of Budapest\\Asztal\\softwareengineering\\InMemoryAdatbazis2\\Form1.cs [Design]",
-              "RelativeToolTip": "InMemoryAdatbazis2\\Form1.cs [Design]",
+              "Title": "jsgyak.html",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jsgyak.html",
+              "RelativeDocumentMoniker": "ASPNETElsoLepesek\\wwwroot\\jsgyak.html",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jsgyak.html",
+              "RelativeToolTip": "ASPNETElsoLepesek\\wwwroot\\jsgyak.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-03T19:42:11.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "geeks.css",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.css",
+              "RelativeDocumentMoniker": "ASPNETElsoLepesek\\wwwroot\\geeks.css",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.css",
+              "RelativeToolTip": "ASPNETElsoLepesek\\wwwroot\\geeks.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-03T19:25:59.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "geeks.json",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.json",
+              "RelativeDocumentMoniker": "ASPNETElsoLepesek\\wwwroot\\geeks.json",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.json",
+              "RelativeToolTip": "ASPNETElsoLepesek\\wwwroot\\geeks.json",
+              "ViewState": "AQIAANAAAAAAAAAAAAAiwO4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T19:26:54.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "geeks.js",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.js",
+              "RelativeDocumentMoniker": "ASPNETElsoLepesek\\wwwroot\\geeks.js",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.js",
+              "RelativeToolTip": "ASPNETElsoLepesek\\wwwroot\\geeks.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-03T19:26:08.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "geeks.html",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.html",
+              "RelativeDocumentMoniker": "ASPNETElsoLepesek\\wwwroot\\geeks.html",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.html",
+              "RelativeToolTip": "ASPNETElsoLepesek\\wwwroot\\geeks.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-03T19:23:55.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "jokes.html",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jokes.html",
+              "RelativeDocumentMoniker": "ASPNETElsoLepesek\\wwwroot\\jokes.html",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\jokes.html",
+              "RelativeToolTip": "ASPNETElsoLepesek\\wwwroot\\jokes.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-03T19:18:27.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyakorloFeladatsor2\\Program.cs",
+              "RelativeDocumentMoniker": "GyakorloFeladatsor2\\Program.cs",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyakorloFeladatsor2\\Program.cs",
+              "RelativeToolTip": "GyakorloFeladatsor2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T22:25:56.299Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T19:18:03.221Z"
             }
           ]
         }

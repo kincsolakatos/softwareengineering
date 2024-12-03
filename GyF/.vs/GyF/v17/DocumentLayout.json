@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{03B2B786-4A63-461A-BDD1-93D05C6A663F}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|solutionrelative:asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03B2B786-4A63-461A-BDD1-93D05C6A663F}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\gyf\\asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{03B2B786-4A63-461A-BDD1-93D05C6A663F}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{03B2B786-4A63-461A-BDD1-93D05C6A663F}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|solutionrelative:asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -50,8 +50,7 @@
               "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF\\AsztaliAlkalmazasKeszitese\\Form1.cs [Design]",
               "RelativeToolTip": "AsztaliAlkalmazasKeszitese\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T22:34:40.595Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-01T22:34:40.595Z"
             }
           ]
         }

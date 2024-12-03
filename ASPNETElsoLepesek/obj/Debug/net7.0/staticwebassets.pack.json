@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\geeks.html",
+      "PackagePath": "staticwebassets\\geeks.html"
+    },
+    {
       "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\ASPNETElsoLepesek\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
