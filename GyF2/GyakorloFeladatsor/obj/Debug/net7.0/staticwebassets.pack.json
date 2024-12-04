@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\add.js",
+      "PackagePath": "staticwebassets\\add.js"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\books.css",
+      "PackagePath": "staticwebassets\\books.css"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\books.html",
+      "PackagePath": "staticwebassets\\books.html"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\list.js",
+      "PackagePath": "staticwebassets\\list.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.GyakorloFeladatsor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.GyakorloFeladatsor.props",
+      "PackagePath": "build\\GyakorloFeladatsor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.GyakorloFeladatsor.props",
+      "PackagePath": "buildMultiTargeting\\GyakorloFeladatsor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.GyakorloFeladatsor.props",
+      "PackagePath": "buildTransitive\\GyakorloFeladatsor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

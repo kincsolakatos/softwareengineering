@@ -1,0 +1,27 @@
+﻿table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 8px;
+    border: solid 4px;
+}
+thead,tbody {
+    padding: 6px;
+    border: solid 3px;
+}
+tr {
+    padding: 4px;
+    border: solid 2px;
+}
+th, td {
+    padding: 2px;
+    border: solid 1px;
+}
+form {
+    border: solid 4px;
+    padding: 8px;
+    align-content: center;
+}
+input, button {
+    padding: 6px;
+}

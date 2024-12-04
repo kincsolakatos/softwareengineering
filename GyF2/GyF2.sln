@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GyakorloFeladatsor", "GyakorloFeladatsor\GyakorloFeladatsor.csproj", "{226148EA-3AE0-4E03-B9E0-49442F1B6A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsztaliAlkalmazasKeszitese", "AsztaliAlkalmazasKeszitese\AsztaliAlkalmazasKeszitese.csproj", "{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{226148EA-3AE0-4E03-B9E0-49442F1B6A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226148EA-3AE0-4E03-B9E0-49442F1B6A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226148EA-3AE0-4E03-B9E0-49442F1B6A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226148EA-3AE0-4E03-B9E0-49442F1B6A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1EA2965-083F-4F8B-83CE-A1A8F04C6B29}
+	EndGlobalSection
+EndGlobal
