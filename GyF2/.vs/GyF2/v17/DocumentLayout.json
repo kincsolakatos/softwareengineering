@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{226148EA-3AE0-4E03-B9E0-49442F1B6A89}|GyakorloFeladatsor\\GyakorloFeladatsor.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\gyf2\\gyakorlofeladatsor\\wwwroot\\add.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{226148EA-3AE0-4E03-B9E0-49442F1B6A89}|GyakorloFeladatsor\\GyakorloFeladatsor.csproj|solutionrelative:gyakorlofeladatsor\\wwwroot\\add.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226148EA-3AE0-4E03-B9E0-49442F1B6A89}|GyakorloFeladatsor\\GyakorloFeladatsor.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\gyf2\\gyakorlofeladatsor\\wwwroot\\list.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{226148EA-3AE0-4E03-B9E0-49442F1B6A89}|GyakorloFeladatsor\\GyakorloFeladatsor.csproj|solutionrelative:gyakorlofeladatsor\\wwwroot\\list.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226148EA-3AE0-4E03-B9E0-49442F1B6A89}|GyakorloFeladatsor\\GyakorloFeladatsor.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\gyf2\\gyakorlofeladatsor\\wwwroot\\books.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{226148EA-3AE0-4E03-B9E0-49442F1B6A89}|GyakorloFeladatsor\\GyakorloFeladatsor.csproj|solutionrelative:gyakorlofeladatsor\\wwwroot\\books.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226148EA-3AE0-4E03-B9E0-49442F1B6A89}|GyakorloFeladatsor\\GyakorloFeladatsor.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\gyf2\\gyakorlofeladatsor\\wwwroot\\books.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{226148EA-3AE0-4E03-B9E0-49442F1B6A89}|GyakorloFeladatsor\\GyakorloFeladatsor.csproj|solutionrelative:gyakorlofeladatsor\\wwwroot\\books.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\gyf2\\asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|solutionrelative:asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\gyf2\\asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D5D36C7D-1693-41A6-9F28-40C7C02F59DF}|AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj|solutionrelative:asztalialkalmazaskeszitese\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +46,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "list.js",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\list.js",
+              "RelativeDocumentMoniker": "GyakorloFeladatsor\\wwwroot\\list.js",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\list.js",
+              "RelativeToolTip": "GyakorloFeladatsor\\wwwroot\\list.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-04T09:59:30.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "add.js",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\add.js",
+              "RelativeDocumentMoniker": "GyakorloFeladatsor\\wwwroot\\add.js",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\add.js",
+              "RelativeToolTip": "GyakorloFeladatsor\\wwwroot\\add.js",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-04T09:59:25.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "books.css",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\books.css",
+              "RelativeDocumentMoniker": "GyakorloFeladatsor\\wwwroot\\books.css",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\books.css",
+              "RelativeToolTip": "GyakorloFeladatsor\\wwwroot\\books.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-04T09:59:14.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "books.html",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\books.html",
+              "RelativeDocumentMoniker": "GyakorloFeladatsor\\wwwroot\\books.html",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\GyakorloFeladatsor\\wwwroot\\books.html",
+              "RelativeToolTip": "GyakorloFeladatsor\\wwwroot\\books.html",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-04T09:57:50.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\AsztaliAlkalmazasKeszitese\\Form1.cs",
               "RelativeDocumentMoniker": "AsztaliAlkalmazasKeszitese\\Form1.cs",
@@ -43,15 +111,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\AsztaliAlkalmazasKeszitese\\Form1.cs",
               "RelativeDocumentMoniker": "AsztaliAlkalmazasKeszitese\\Form1.cs",
               "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\GyF2\\AsztaliAlkalmazasKeszitese\\Form1.cs [Design]",
               "RelativeToolTip": "AsztaliAlkalmazasKeszitese\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T07:36:34.234Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-04T07:36:34.234Z"
             }
           ]
         }

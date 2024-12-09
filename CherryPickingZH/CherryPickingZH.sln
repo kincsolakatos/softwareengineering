@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CherryPickingZHApp", "CherryPickingZHApp\CherryPickingZHApp.csproj", "{01DA8179-F562-493F-8E75-D4B80BF52E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CherryPickingZHWeb", "CherryPickingZHWeb\CherryPickingZHWeb.csproj", "{D8D168E4-AC05-4489-B00B-A1EE74840F1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01DA8179-F562-493F-8E75-D4B80BF52E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DA8179-F562-493F-8E75-D4B80BF52E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DA8179-F562-493F-8E75-D4B80BF52E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DA8179-F562-493F-8E75-D4B80BF52E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D168E4-AC05-4489-B00B-A1EE74840F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D168E4-AC05-4489-B00B-A1EE74840F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D168E4-AC05-4489-B00B-A1EE74840F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D168E4-AC05-4489-B00B-A1EE74840F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70415A02-691F-4CC6-9E25-038A9B7E40CD}
+	EndGlobalSection
+EndGlobal

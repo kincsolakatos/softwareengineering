@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=iasr1j.database.windows.net;Initial Catalog=CarSharingDB;Persist Security Info=True;User ID=iasr1j;Password=Password1234;Encrypt=True;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir Data -Context CarSharingDbContext -DataAnnotations -Force -NoPluralize

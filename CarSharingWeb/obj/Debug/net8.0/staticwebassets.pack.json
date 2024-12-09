@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.js",
+      "PackagePath": "staticwebassets\\index.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarSharingWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CarSharingWeb.props",
+      "PackagePath": "build\\CarSharingWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CarSharingWeb.props",
+      "PackagePath": "buildMultiTargeting\\CarSharingWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CarSharingWeb.props",
+      "PackagePath": "buildTransitive\\CarSharingWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

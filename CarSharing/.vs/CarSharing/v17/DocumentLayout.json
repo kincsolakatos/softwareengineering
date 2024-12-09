@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D13CCAD1-03EE-4392-89DA-59EDFE16F403}|..\\CarSharingWeb\\CarSharingWeb.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\carsharingweb\\data\\carsharingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13CCAD1-03EE-4392-89DA-59EDFE16F403}|..\\CarSharingWeb\\CarSharingWeb.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\carsharingweb\\wwwroot\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13CCAD1-03EE-4392-89DA-59EDFE16F403}|..\\CarSharingWeb\\CarSharingWeb.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\carsharingweb\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13CCAD1-03EE-4392-89DA-59EDFE16F403}|..\\CarSharingWeb\\CarSharingWeb.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\carsharingweb\\wwwroot\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13CCAD1-03EE-4392-89DA-59EDFE16F403}|..\\CarSharingWeb\\CarSharingWeb.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\carsharingweb\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13CCAD1-03EE-4392-89DA-59EDFE16F403}|..\\CarSharingWeb\\CarSharingWeb.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\carsharingweb\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D13CCAD1-03EE-4392-89DA-59EDFE16F403}|..\\CarSharingWeb\\CarSharingWeb.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\carsharingweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.js",
+              "RelativeDocumentMoniker": "..\\CarSharingWeb\\wwwroot\\index.js",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.js",
+              "RelativeToolTip": "..\\CarSharingWeb\\wwwroot\\index.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-09T17:49:11.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "..\\CarSharingWeb\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\Models\\Users.cs",
+              "RelativeToolTip": "..\\CarSharingWeb\\Models\\Users.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T17:46:26.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "..\\CarSharingWeb\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.html",
+              "RelativeToolTip": "..\\CarSharingWeb\\wwwroot\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-09T17:20:18.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarSharingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\Data\\CarSharingDbContext.cs",
+              "RelativeDocumentMoniker": "..\\CarSharingWeb\\Data\\CarSharingDbContext.cs",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\Data\\CarSharingDbContext.cs",
+              "RelativeToolTip": "..\\CarSharingWeb\\Data\\CarSharingDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T17:47:23.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IndexController.cs",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\Controllers\\IndexController.cs",
+              "RelativeDocumentMoniker": "..\\CarSharingWeb\\Controllers\\IndexController.cs",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\Controllers\\IndexController.cs",
+              "RelativeToolTip": "..\\CarSharingWeb\\Controllers\\IndexController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T17:30:39.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.css",
+              "RelativeDocumentMoniker": "..\\CarSharingWeb\\wwwroot\\index.css",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\wwwroot\\index.css",
+              "RelativeToolTip": "..\\CarSharingWeb\\wwwroot\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T17:23:33.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CarSharingWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\CarSharingWeb\\Program.cs",
+              "RelativeToolTip": "..\\CarSharingWeb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T17:17:06.269Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
