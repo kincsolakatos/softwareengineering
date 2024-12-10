@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|solutionrelative:cpzw\\wwwroot\\users.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\hozott.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|solutionrelative:cpzw\\wwwroot\\hozott.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|solutionrelative:cpzw\\wwwroot\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\hozott.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|solutionrelative:cpzw\\wwwroot\\hozott.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|solutionrelative:cpzw\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\cpz\\cpzw\\controllers\\uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\controllers\\uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|solutionrelative:cpzw\\controllers\\uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|c:\\users\\kincs\\desktop\\softwareengineering\\cpz\\cpzw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7CE4CA3-2891-4AD8-B97E-260C62A67545}|cpzw\\cpzw.csproj|solutionrelative:cpzw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -43,14 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "users.html",
-              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.html",
-              "RelativeDocumentMoniker": "cpzw\\wwwroot\\users.html",
-              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.html",
-              "RelativeToolTip": "cpzw\\wwwroot\\users.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAhAAAA",
+              "Title": "hozott.css",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\hozott.css",
+              "RelativeDocumentMoniker": "cpzw\\wwwroot\\hozott.css",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\hozott.css",
+              "RelativeToolTip": "cpzw\\wwwroot\\hozott.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T23:23:49.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "hozott.html",
+              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\hozott.html",
+              "RelativeDocumentMoniker": "cpzw\\wwwroot\\hozott.html",
+              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\hozott.html",
+              "RelativeToolTip": "cpzw\\wwwroot\\hozott.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-10T23:15:35.351Z",
+              "WhenOpened": "2024-12-10T23:23:28.213Z",
               "EditorCaption": ""
             },
             {
@@ -68,19 +81,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "users.js",
-              "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.js",
-              "RelativeDocumentMoniker": "cpzw\\wwwroot\\users.js",
-              "ToolTip": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.js",
-              "RelativeToolTip": "cpzw\\wwwroot\\users.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-10T23:14:58.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Uc.cs",
               "DocumentMoniker": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\Controllers\\Uc.cs",
@@ -89,8 +89,7 @@
               "RelativeToolTip": "cpzw\\Controllers\\Uc.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAnwCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T23:06:00.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T23:06:00.892Z"
             },
             {
               "$type": "Document",
@@ -102,8 +101,7 @@
               "RelativeToolTip": "cpzw\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T23:02:15.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T23:02:15.308Z"
             }
           ]
         }
