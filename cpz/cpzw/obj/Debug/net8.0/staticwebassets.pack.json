@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.css",
+      "PackagePath": "staticwebassets\\users.css"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.html",
+      "PackagePath": "staticwebassets\\users.html"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\wwwroot\\users.js",
+      "PackagePath": "staticwebassets\\users.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.cpzw.props",
+      "PackagePath": "build\\cpzw.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.cpzw.props",
+      "PackagePath": "buildMultiTargeting\\cpzw.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.cpzw.props",
+      "PackagePath": "buildTransitive\\cpzw.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.cpzw.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

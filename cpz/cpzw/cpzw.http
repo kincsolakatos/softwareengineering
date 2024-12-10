@@ -1,0 +1,6 @@
+@cpzw_HostAddress = http://localhost:5290
+
+GET {{cpzw_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
