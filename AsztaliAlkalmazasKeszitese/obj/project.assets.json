@@ -3101,19 +3101,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kincs\\.nuget\\packages\\": {}
+    "C:\\Users\\iasr1j\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kincs\\Desktop\\softwareengineering\\AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj",
+      "projectUniqueName": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj",
       "projectName": "AsztaliAlkalmazasKeszitese",
-      "projectPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj",
-      "packagesPath": "C:\\Users\\kincs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\AsztaliAlkalmazasKeszitese\\obj\\",
+      "projectPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\AsztaliAlkalmazasKeszitese\\AsztaliAlkalmazasKeszitese.csproj",
+      "packagesPath": "C:\\Users\\iasr1j\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\AsztaliAlkalmazasKeszitese\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kincs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\iasr1j\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3133,11 +3133,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3180,7 +3175,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

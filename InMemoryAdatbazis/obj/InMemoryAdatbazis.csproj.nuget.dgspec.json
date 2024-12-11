@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis\\InMemoryAdatbazis.csproj": {}
+    "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\InMemoryAdatbazis\\InMemoryAdatbazis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis\\InMemoryAdatbazis.csproj": {
+    "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\InMemoryAdatbazis\\InMemoryAdatbazis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis\\InMemoryAdatbazis.csproj",
+        "projectUniqueName": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\InMemoryAdatbazis\\InMemoryAdatbazis.csproj",
         "projectName": "InMemoryAdatbazis",
-        "projectPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis\\InMemoryAdatbazis.csproj",
-        "packagesPath": "C:\\Users\\kincs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\InMemoryAdatbazis\\obj\\",
+        "projectPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\InMemoryAdatbazis\\InMemoryAdatbazis.csproj",
+        "packagesPath": "C:\\Users\\iasr1j\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\InMemoryAdatbazis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kincs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iasr1j\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -81,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,6 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Rendeles_Forms_IASR1J
-build_property.ProjectDir = C:\Users\kincs\Desktop\softwareengineering\Rendeles_Forms_IASR1J\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\iasr1j\Desktop\softwareengineering\Rendeles_Forms_IASR1J\

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "b/GYls6Ra2FLINYOqMpGJm50QzAPDcpPaE3/7idNRus=",
+  "Source": "Cseresznye_IASR1J_Web",
+  "BasePath": "_content/Cseresznye_IASR1J_Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Cseresznye_IASR1J_Web\\wwwroot",
+      "Source": "Cseresznye_IASR1J_Web",
+      "ContentRoot": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\",
+      "BasePath": "_content/Cseresznye_IASR1J_Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.css",
+      "SourceId": "Cseresznye_IASR1J_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\",
+      "BasePath": "_content/Cseresznye_IASR1J_Web",
+      "RelativePath": "hozott.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\hozott.css"
+    },
+    {
+      "Identity": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.html",
+      "SourceId": "Cseresznye_IASR1J_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\",
+      "BasePath": "_content/Cseresznye_IASR1J_Web",
+      "RelativePath": "hozott.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\hozott.html"
+    },
+    {
+      "Identity": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.js",
+      "SourceId": "Cseresznye_IASR1J_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\",
+      "BasePath": "_content/Cseresznye_IASR1J_Web",
+      "RelativePath": "hozott.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\hozott.js"
+    },
+    {
+      "Identity": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\index.html",
+      "SourceId": "Cseresznye_IASR1J_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\",
+      "BasePath": "_content/Cseresznye_IASR1J_Web",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

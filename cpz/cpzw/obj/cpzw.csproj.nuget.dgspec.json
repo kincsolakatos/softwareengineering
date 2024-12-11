@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\cpzw.csproj": {}
+    "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\cpz\\cpzw\\cpzw.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\cpzw.csproj": {
+    "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\cpz\\cpzw\\cpzw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\cpzw.csproj",
+        "projectUniqueName": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\cpz\\cpzw\\cpzw.csproj",
         "projectName": "cpzw",
-        "projectPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\cpzw.csproj",
-        "packagesPath": "C:\\Users\\kincs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kincs\\Desktop\\softwareengineering\\cpz\\cpzw\\obj\\",
+        "projectPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\cpz\\cpzw\\cpzw.csproj",
+        "packagesPath": "C:\\Users\\iasr1j\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\cpz\\cpzw\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kincs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iasr1j\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,38 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -77,15 +51,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,28 @@
+﻿table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 8px;
+    border: solid 4px #101010;
+}
+thead,tbody {
+    padding: 6px;
+    border: solid 3px #202020;
+}
+tr {
+    padding: 4px;
+    border: solid 2px #404040;
+}
+th, td {
+    padding: 2px;
+    border: solid 1px #808080;
+}
+form {
+    border: solid 4px #101010;
+    padding: 8px;
+    align-content: center;
+}
+input, button {
+    border:solid 1px #808080;
+    padding: 2px;
+}

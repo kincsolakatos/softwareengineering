@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsztaliAlkalmazasKeszitese")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3255c600ee6ae694036a97e1d727df8c0c965b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsztaliAlkalmazasKeszitese")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsztaliAlkalmazasKeszitese")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
