@@ -1,5 +1,5 @@
 ﻿
-# Pontozólap minta
+# Pontozólap
 Név: Lakatos Kincső
 
 Neptun: IASR1J
