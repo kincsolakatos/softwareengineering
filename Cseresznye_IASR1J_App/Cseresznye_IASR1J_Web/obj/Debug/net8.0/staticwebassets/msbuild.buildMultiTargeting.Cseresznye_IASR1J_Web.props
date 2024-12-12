@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cseresznye_IASR1J_Web.props" />
+</Project>

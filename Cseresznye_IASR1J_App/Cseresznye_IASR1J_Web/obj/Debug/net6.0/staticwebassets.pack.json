@@ -1,19 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.css",
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.css",
       "PackagePath": "staticwebassets\\hozott.css"
     },
     {
-      "Id": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.html",
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.html",
       "PackagePath": "staticwebassets\\hozott.html"
     },
     {
-      "Id": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.js",
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott.js",
       "PackagePath": "staticwebassets\\hozott.js"
     },
     {
-      "Id": "C:\\Users\\iasr1j\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\index.html",
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\hozott2.js",
+      "PackagePath": "staticwebassets\\hozott2.js"
+    },
+    {
+      "Id": "C:\\Users\\kincs\\Desktop\\softwareengineering\\Cseresznye_IASR1J_App\\Cseresznye_IASR1J_Web\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

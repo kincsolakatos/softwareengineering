@@ -30,10 +30,10 @@
         {
             components = new System.ComponentModel.Container();
             panelCseresznye = new Panel();
-            buttonLoadUsers = new Button();
-            buttonLoadRides = new Button();
             contextMenuStripCseresznye = new ContextMenuStrip(components);
             addRideToolStripMenuItem = new ToolStripMenuItem();
+            buttonLoadUsers = new Button();
+            buttonLoadRides = new Button();
             contextMenuStripCseresznye.SuspendLayout();
             SuspendLayout();
             // 
@@ -41,16 +41,32 @@
             // 
             panelCseresznye.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panelCseresznye.ContextMenuStrip = contextMenuStripCseresznye;
-            panelCseresznye.Location = new Point(93, 12);
+            panelCseresznye.Location = new Point(128, 16);
+            panelCseresznye.Margin = new Padding(3, 4, 3, 4);
             panelCseresznye.Name = "panelCseresznye";
-            panelCseresznye.Size = new Size(695, 426);
+            panelCseresznye.Size = new Size(772, 568);
             panelCseresznye.TabIndex = 0;
+            // 
+            // contextMenuStripCseresznye
+            // 
+            contextMenuStripCseresznye.ImageScalingSize = new Size(20, 20);
+            contextMenuStripCseresznye.Items.AddRange(new ToolStripItem[] { addRideToolStripMenuItem });
+            contextMenuStripCseresznye.Name = "contextMenuStripCseresznye";
+            contextMenuStripCseresznye.Size = new Size(141, 28);
+            // 
+            // addRideToolStripMenuItem
+            // 
+            addRideToolStripMenuItem.Name = "addRideToolStripMenuItem";
+            addRideToolStripMenuItem.Size = new Size(140, 24);
+            addRideToolStripMenuItem.Text = "Add Ride";
+            addRideToolStripMenuItem.Click += addRideToolStripMenuItem_Click;
             // 
             // buttonLoadUsers
             // 
-            buttonLoadUsers.Location = new Point(12, 185);
+            buttonLoadUsers.Location = new Point(14, 247);
+            buttonLoadUsers.Margin = new Padding(3, 4, 3, 4);
             buttonLoadUsers.Name = "buttonLoadUsers";
-            buttonLoadUsers.Size = new Size(75, 23);
+            buttonLoadUsers.Size = new Size(108, 31);
             buttonLoadUsers.TabIndex = 1;
             buttonLoadUsers.Text = "Load Users";
             buttonLoadUsers.UseVisualStyleBackColor = true;
@@ -58,35 +74,24 @@
             // 
             // buttonLoadRides
             // 
-            buttonLoadRides.Location = new Point(12, 214);
+            buttonLoadRides.Location = new Point(14, 285);
+            buttonLoadRides.Margin = new Padding(3, 4, 3, 4);
             buttonLoadRides.Name = "buttonLoadRides";
-            buttonLoadRides.Size = new Size(75, 23);
+            buttonLoadRides.Size = new Size(108, 31);
             buttonLoadRides.TabIndex = 2;
             buttonLoadRides.Text = "Load Rides";
             buttonLoadRides.UseVisualStyleBackColor = true;
             buttonLoadRides.Click += buttonLoadRides_Click;
             // 
-            // contextMenuStripCseresznye
-            // 
-            contextMenuStripCseresznye.Items.AddRange(new ToolStripItem[] { addRideToolStripMenuItem });
-            contextMenuStripCseresznye.Name = "contextMenuStripCseresznye";
-            contextMenuStripCseresznye.Size = new Size(123, 26);
-            // 
-            // addRideToolStripMenuItem
-            // 
-            addRideToolStripMenuItem.Name = "addRideToolStripMenuItem";
-            addRideToolStripMenuItem.Size = new Size(180, 22);
-            addRideToolStripMenuItem.Text = "Add Ride";
-            addRideToolStripMenuItem.Click += addRideToolStripMenuItem_Click;
-            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(buttonLoadRides);
             Controls.Add(buttonLoadUsers);
             Controls.Add(panelCseresznye);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             FormClosing += Form1_FormClosing;
