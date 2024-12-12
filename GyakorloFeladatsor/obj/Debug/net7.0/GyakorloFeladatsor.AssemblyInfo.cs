@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GyakorloFeladatsor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ee9ac45c319649e3a625dccf5530d5b1c7ce8e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("GyakorloFeladatsor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GyakorloFeladatsor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
